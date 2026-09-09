@@ -4,15 +4,15 @@ Hệ thống sản xuất nội dung tri thức và storytelling dành cho TikTo
 
 ## Mục tiêu
 
-VKSF biến **knowledge, trải nghiệm thật hoặc quan sát đời sống** thành một Content Universe có thể phát triển dài hạn: `source → worldview → universe → territory → theme → problem → angle → title/hook → narrative → retention → production → analytics → learning`.
+VKSF biến **knowledge, trải nghiệm thật hoặc quan sát đời sống** thành một Content Universe có thể phát triển dài hạn: `source → worldview → universe → territory → theme → problem → angle → communication concept → title/hook → narrative → retention → production → analytics → learning`.
 
 ## Triết lý cốt lõi
 
 **Ngạc nhiên → Đồng cảm → Suy ngẫm.**
 
-VKSF không đảm bảo viral. Hệ thống tối ưu attention, value, empathy, retention, shareability, brand consistency và khả năng học từ dữ liệu.
+VKSF không đảm bảo viral. Hệ thống tối ưu attention, value, empathy, retention, shareability, brand consistency, truth safety và khả năng học từ dữ liệu.
 
-## Kiến trúc v1.8
+## Kiến trúc v1.9
 
 ### Core layers
 1. Content DNA
@@ -38,82 +38,69 @@ VKSF không đảm bảo viral. Hệ thống tối ưu attention, value, empathy
 21. Story + Angle + Hook Intelligence
 22. Content Universe Intelligence
 23. Narrative Intelligence Engine
-24. **Retention Intelligence Engine**
+24. Retention Intelligence Engine
+25. **Communication Concept Intelligence**
 
 ### Content Universe
 `Universe → Territory → Theme → Problem → Angle → Story → Video`
 
-### Intelligence Layer
-`Source → Universal Problem → Worldview → Angle Matrix → Hook Matrix → Promise/Payoff Check → Narrative Intelligence → Retention Intelligence → Winner`
+### Communication Concept Layer
+`Base Content → Concept → Perception Shift → Concept Stack → Truth Gate → Title/Hook → Narrative/Visual Propagation → Payoff`
 
-### Retention Layer
-`Segment → Micro-Hook → Progress → Tension → Swipe-Risk → Emotional Rhythm → Payoff → Score → Rewrite`
+### Intelligence Layer
+`Source → Universal Problem → Worldview → Angle Matrix → Communication Concept → Hook Matrix → Promise/Payoff Check → Narrative → Retention → Winner`
 
 ### Content Factory
 `Generate → Score → Deduplicate → Prioritize → Cluster → Queue → Calendar → Learn → Next Batch`
 
-### Production Pack
-`Strategy → Hook → Narrative → Knowledge → Insight → Script → Retention Map → Storyboard → Voice → Packaging → Quality Gate → Publish → Analytics`
+## Communication Concept Intelligence v1.9
 
-## Retention Intelligence v1.8
+### Concept as mechanism
+Concept không phải từ khóa để nhét vào headline. Concept là **cơ chế thay đổi perception** của người xem mà không thay đổi sự thật cốt lõi.
 
-Retention được đánh giá theo toàn bộ hành trình thay vì chỉ nhìn hook 3 giây đầu.
+### Concept Library
+Các concept có thể gồm:
+`Secret/Reveal, Number/Specificity, Magnitude/Scale, Contrast, Contradiction, Before/After, Hidden Gem, Warning/Loss, Curiosity, FOMO/Scarcity, Social Proof, Challenge, Comparison, Transformation, Confession, Story, Myth-busting, Unexpected Detail, Status/Prestige, Time Pressure`.
 
-### Retention journey
-`Attention → Curiosity → Progress → Emotional Investment → Payoff`
+Mỗi concept cần có mechanism, use case, perception shift, strength và risk.
 
-### Segment analysis
-Mỗi beat/time segment được đánh giá theo:
-- Purpose
-- New Information
-- Emotion
-- Open Question
-- Micro-Hook
-- Payoff
-- Swipe Risk
+### Perception Transformation
+`Base Content → Concept → New Perception → Curiosity Question → Promise`
 
-### Micro-Hook Engine
-Có thể dùng:
-- New question
-- New information
-- New emotion
-- Contrast
-- Specific detail
-- Unexpected action
-- Escalation
-- Promise of reveal
+### Concept Stacking
+Một hook có thể dùng:
+`Primary Concept + 1–2 Secondary Concepts + Optional Support`.
 
-Không chèn micro-hook máy móc.
+Không stack quá nhiều làm mất tự nhiên hoặc clarity.
 
-### Progress Engine
-Mỗi segment cần tạo tiến triển về ít nhất một mặt:
-`Information / Story / Emotion / Meaning`
+### Truth Gate
+Kiểm tra:
+- Factual accuracy
+- Context accuracy
+- Real numbers
+- Real scarcity
+- Honest comparison
+- Promise matches delivery
 
-### Swipe-Risk Engine
-Tìm các điểm có nguy cơ khiến người xem rời đi:
-`Intro dài / Background dump / Repetition / Generic statement / Predictable conclusion / Knowledge dumping / Missing question / Low specificity / CTA quá sớm / Post-payoff drag`
+Concept mạnh nhưng claim không chắc chắn phải bị loại, hạ mức claim hoặc đánh dấu `[CẦN NGUỒN]`.
 
-### Emotional Rhythm
-Theo dõi nhịp cảm xúc theo thời gian thay vì để video phẳng từ đầu đến cuối.
+### Propagation
+Concept được truyền xuống:
+`Title → Hook → Narrative → Micro-hook → Visual → Emotional Beat → Payoff`.
 
-### Payoff timing
-Phân biệt:
-- Micro Payoff
-- Mid Payoff
-- Final Payoff
-
-Final payoff phải trả đúng promise trung tâm.
-
-### Retention Score /100
-`Hook15 + Curiosity15 + Progress15 + Tension15 + Emotional Rhythm10 + Specificity10 + Micro-Hooks10 + Payoff Design10`
-
-Score là công cụ kiểm tra nội bộ, không phải dự đoán lượt xem.
+Không để concept chỉ tồn tại ở headline mà biến mất trong phần nội dung.
 
 ## Narrative Intelligence
 
 `Story Mining → Tension → Question Chain → Micro-Details → Story Loops → Turning Point → Payoff → Emotional Payoff → Meaning`
 
-Story mạnh không nhất thiết cần drama lớn; một micro-detail đúng có thể mang emotional weight lớn.
+Story mạnh không nhất thiết cần drama lớn; micro-detail phù hợp có thể tạo emotional weight lớn.
+
+## Retention Intelligence
+
+`Attention → Curiosity → Progress → Emotional Investment → Payoff`
+
+Mỗi segment kiểm tra Purpose, New Information, Emotion, Open Question, Micro-Hook, Payoff và Swipe Risk.
 
 ## Hook Intelligence
 
@@ -151,13 +138,16 @@ Các score dùng để ưu tiên và kiểm tra, không phải dự đoán chắ
 `Generate → Score → Deduplicate → Prioritize → Cluster → Queue → Calendar`
 
 ### INTELLIGENCE
-`Source → Problem → Worldview → Angles → Hooks → Promise/Payoff`
+`Source → Problem → Worldview → Angle → Communication Concept → Hook → Promise/Payoff`
 
 ### NARRATIVE
 `Mine → Worthiness → Tension → Question Chain → Micro-details → Loops → Turning Point → Payoff → Meaning`
 
 ### RETENTION
 `Segment → Micro-Hook → Progress → Tension → Swipe-Risk → Emotional Rhythm → Payoff → Score → Rewrite`
+
+### CONCEPT
+`Decode → Concept Candidates → Perception Shift → Stack → Truth Gate → Propagation → Winner`
 
 ### PRODUCTION
 `Narrative/Knowledge → Insight → Script → Retention → Storyboard → Voice → Packaging → QA`
@@ -166,7 +156,7 @@ Các score dùng để ưu tiên và kiểm tra, không phải dự đoán chắ
 `Measure → Compare → Patterns → Hypotheses → Experiments → Rules`
 
 ### FULL AUTO
-`Universe → Batch → Intelligence → Narrative → Retention → Production → Calendar → Publish → Learning → Universe Update`
+`Universe → Batch → Intelligence → Concept → Narrative → Retention → Production → Calendar → Publish → Learning → Universe Update`
 
 ## Thư mục quan trọng
 
@@ -174,12 +164,14 @@ Các score dùng để ưu tiên và kiểm tra, không phải dự đoán chắ
 - `prompts/ai-content-os.md` — AI Content Operating System.
 - `prompts/content-universe-intelligence.md` — Content Universe Engine.
 - `prompts/story-angle-hook-intelligence.md` — Story + Angle + Hook Intelligence.
+- `prompts/communication-concept-intelligence.md` — Communication Concept Intelligence v1.9.
 - `prompts/narrative-intelligence.md` — Narrative Intelligence.
-- `prompts/retention-intelligence.md` — Retention Intelligence v1.8.
+- `prompts/retention-intelligence.md` — Retention Intelligence.
 - `prompts/master-prompt.md` — production pack.
 - `prompts/content-factory.md` — batch factory.
 - `templates/content-universe-map.md` — Universe Map.
 - `templates/narrative-map.md` — Narrative Map.
+- `templates/concept-intelligence-map.md` — Concept Intelligence Map.
 - `templates/retention-map.md` — Retention Map.
 - `templates/production-package.md` — Production Package.
 
@@ -194,7 +186,8 @@ Các score dùng để ưu tiên và kiểm tra, không phải dự đoán chắ
 - **v1.6** — Content Universe Intelligence.
 - **v1.7** — Narrative Intelligence Engine.
 - **v1.8** — Retention Intelligence Engine.
+- **v1.9** — Communication Concept Intelligence.
 
 ## End-to-End
 
-`Experience/Knowledge/Observation → Universe → Territory → Theme → Problem → Worldview → Angle → Title/Hook → Narrative → Retention → Story/Knowledge → Mirror → Insight → Transformation → Production → Publish → Analytics → Learning → Universe Update`
+`Experience/Knowledge/Observation → Universe → Territory → Theme → Problem → Worldview → Angle → Communication Concept → Title/Hook → Narrative → Retention → Story/Knowledge → Mirror → Insight → Transformation → Production → Publish → Analytics → Learning → Universe Update`
