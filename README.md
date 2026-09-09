@@ -1,20 +1,20 @@
 # Viral Knowledge Storytelling Framework (VKSF)
 
-Hệ thống sản xuất nội dung tri thức lan truyền dành cho TikTok, Facebook Reels và YouTube Shorts.
+Hệ thống sản xuất nội dung tri thức và storytelling dành cho TikTok, Facebook Reels và YouTube Shorts.
 
 ## Mục tiêu
 
-Biến một ý tưởng hoặc một lĩnh vực thành hệ thống sản xuất nội dung hoàn chỉnh: **ý tưởng → chấm điểm → angle → hook → cảm xúc → retention → story → knowledge → insight → script → whiteboard → voice → packaging → publish → analytics → learning**.
+VKSF biến **knowledge hoặc trải nghiệm thật** thành một hệ thống nội dung có chiến lược: nguồn chất liệu → Content Universe → vấn đề → worldview → angle → title/hook → story → insight → production → analytics → learning.
 
 ## Triết lý cốt lõi
 
 **Ngạc nhiên → Đồng cảm → Suy ngẫm.**
 
-VKSF không coi viral là một công thức bảo đảm lượt xem. Framework thiết kế các điều kiện làm tăng khả năng người xem dừng lại, xem tiếp, hiểu, ghi nhớ, lưu và chia sẻ; sau đó dùng dữ liệu thực tế để cải tiến.
+VKSF không đảm bảo viral. Hệ thống tối ưu chất lượng attention, value, empathy, retention, shareability và khả năng học từ dữ liệu.
 
-## Hệ thống
+## Kiến trúc v1.5
 
-### 16 Engines
+### 21 lớp hệ thống
 1. Content DNA
 2. Topic Engine
 3. Viral Score
@@ -31,36 +31,85 @@ VKSF không coi viral là một công thức bảo đảm lượt xem. Framework
 14. Share Engine
 15. Distribution
 16. Analytics
+17. Experience Engine
+18. Problem Mining Engine
+19. Worldview/Reframe Engine
+20. Mirror Story Engine
+21. Story + Angle + Hook Intelligence
+
+### Content Universe
+`Worldview → Territory → Theme → Angle → Story → Video`
 
 ### Content Factory
 `Generate → Score → Deduplicate → Prioritize → Cluster → Queue → Calendar → Learn → Next Batch`
 
+### Intelligence Layer
+`Source → Universal Problem → Worldview → Angle Matrix → Hook Matrix → Promise/Payoff Check → Winner`
+
 ### Production Pack
-`Topic → Strategy → Hook → Story → Knowledge → Insight → Script → Storyboard → Voice → Packaging → Quality Gate → Publish → Analytics`
+`Strategy → Hook → Story → Knowledge → Insight → Script → Storyboard → Voice → Packaging → Quality Gate → Publish → Analytics`
+
+## Hai nguồn nội dung
+
+### Experience-led
+`Event → Detail → Emotion → Tension → Turning Point → Worldview → Universal Problem → Mirror`
+
+### Knowledge-led
+`Fact → Explanation → Example → Application → Insight → Transformation`
+
+### Hybrid
+Trải nghiệm tạo sự gần gũi; knowledge tạo chiều sâu.
+
+## Hook Intelligence
+
+VKSF tách:
+- **Title:** lý do để chọn xem.
+- **Hook:** lý do để tiếp tục xem.
+
+Nguyên tắc:
+
+`Hook = Attention + Value Promise + Curiosity`
+
+Hook Matrix gồm: Curiosity, Value, Contrarian, Personal Story, Mirror, Warning/Loss.
+
+Mọi hook phải vượt qua:
+
+`Promise → Content Delivery → Payoff`
+
+## Scoring
+
+### Viral Score /100
+`Hook20 + Curiosity15 + Relatability15 + Emotional Impact15 + Knowledge Value15 + Novelty10 + Shareability10`
+
+### Angle Score /100
+`Relevance20 + Curiosity20 + Relatability15 + Emotional Potential15 + Knowledge/Insight Value15 + Novelty10 + Brand Fit5`
+
+### Hook Score /100
+`Attention20 + Curiosity15 + Value Clarity15 + Relatability15 + Emotional Pull10 + Novelty10 + Promise Accuracy10 + Voice Fit5`
+
+Các score dùng để ưu tiên và kiểm tra, không phải dự đoán chắc chắn lượt xem.
 
 ## Thư mục quan trọng
 
-- `SYSTEM.md` — kiến trúc và nguyên tắc VKSF.
-- `prompts/master-prompt.md` — tạo production pack cho một chủ đề.
-- `prompts/content-factory.md` — tạo và ưu tiên một batch ý tưởng.
-- `templates/production-package.md` — template lưu bộ sản xuất.
-- `docs/CONTENT-FACTORY.md` — logic vận hành Content Factory.
-- `prompts/` — các prompt chuyên biệt.
-- `templates/` — các template sản xuất.
-- `examples/` — ví dụ.
-
-## Pipeline
-
-`Idea → Score → Angle → Hook → Emotion Map → Story → Knowledge → Insight → Script → Retention Check → Whiteboard Storyboard → Voiceover → Packaging → Publish → Analytics → Learning`
+- `SYSTEM.md` — hệ thống tổng thể.
+- `prompts/ai-content-os.md` — AI Content Operating System.
+- `prompts/master-prompt.md` — production pack cho một topic.
+- `prompts/content-factory.md` — batch content factory.
+- `prompts/story-angle-hook-intelligence.md` — intelligence layer.
+- `templates/production-package.md` — production package.
+- `templates/story-material.md` — story material bank.
+- `templates/hook-matrix.md` — hook matrix.
+- `docs/VKSF-v1.5.md` — kiến trúc v1.5.
 
 ## Phiên bản
 
 - **v1.0** — system foundation.
-- **v1.1** — AI Content Production System và Master Prompt nâng cấp.
-- **v1.2** — Batch Content Factory và Production Package.
+- **v1.1** — AI Content Production System.
+- **v1.2** — Batch Content Factory.
+- **v1.3** — AI Content Operating System.
+- **v1.4** — Personal Storytelling + Content Universe.
+- **v1.5** — Story + Angle + Hook Intelligence Layer.
 
-## Quality Gate
+## End-to-End Pipeline
 
-Mỗi video được chấm 10 tiêu chí: Hook, Curiosity, Relatability, Emotional Depth, Knowledge Value, Novelty, Clarity, Retention, Ending và Shareability.
-
-Nếu điểm dưới ngưỡng, hệ thống phải xác định điểm yếu, tự sửa một vòng và chấm lại trước khi xuất bản.
+`Experience/Knowledge → Mine → Universalize → Worldview → Angle → Title/Hook → Story/Knowledge → Mirror → Insight → Transformation → Retention → Production → Publish → Analytics → Learning → Next Batch`
