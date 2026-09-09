@@ -1,5 +1,20 @@
 # Changelog
 
+## [1.9.1] - 2026-09-09
+
+### Added
+- VKSF Chat Orchestrator protocol.
+- Strict 12-phase default execution order.
+- User-facing phase progress headers.
+- Anti-skip checklist preventing direct jump to Angle/Hook/Script.
+- `/full`, `/batch`, `/story`, `/hook`, `/analyze` routing rules.
+- `VKSF-CHAT.md` ChatGPT invocation guide.
+
+### Changed
+- Default `VKSF: {topic}` now explicitly maps to the full pipeline.
+- AI-COS must parse and route commands before calling specialist engines.
+- Unsupported/skipped phases must be explicitly marked instead of silently omitted.
+
 ## [1.9.0] - 2026-09-09
 
 ### Added
@@ -34,8 +49,6 @@
 - Retention Score /100.
 - Automatic retention rewrite loop when score is below threshold.
 - Performance learning: predicted retention vs actual retention.
-- `prompts/retention-intelligence.md`.
-- `templates/retention-map.md`.
 
 ### Changed
 - Production Pack now includes a Retention Map before storyboard generation.
@@ -48,15 +61,12 @@
 ### Added
 - Narrative Intelligence Engine.
 - Story Mining, Story Worthiness, Tension Engine, Question Chain, Micro-Detail Engine, Story Loop Engine, Turning Point, Emotional Payoff and Meaning extraction.
-- Narrative Map template.
-- `prompts/narrative-intelligence.md`.
 
 ## [1.6.0] - 2026-09-09
 
 ### Added
 - Content Universe Intelligence Layer.
 - Universe Core, Territory Map, Theme Matrix, Content Gap Detection, Coverage, Cannibalization and Saturation logic.
-- 100-Video Expansion roadmap.
 
 ## [1.5.0] - 2026-09-09
 
