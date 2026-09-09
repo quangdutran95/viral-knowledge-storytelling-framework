@@ -1,4 +1,4 @@
-# VKSF SYSTEM v1.4
+# VKSF SYSTEM v1.6
 
 ## 1. Brand DNA
 
@@ -32,80 +32,138 @@ VKSF tạo nội dung tri thức có tính ứng dụng, chiều sâu, tính ng�
 
 Score dùng để ưu tiên, không phải dự đoán chắc chắn lượt xem.
 
-## 4. NEW — PERSONAL STORYTELLING ENGINE
+## 4. Personal Storytelling Engine
 
-VKSF v1.4 bổ sung lớp biến trải nghiệm cá nhân thành nội dung có tính phổ quát.
-
-### 4.1 Experience Engine
 `Life Event → Emotion → Tension → Problem → Story Potential`
 
-### 4.2 Problem Mining
-Tìm vấn đề phổ quát ẩn sau một trải nghiệm riêng.
+`Personal Event → Universal Problem → Worldview → Mirror Story → Insight`
 
-### 4.3 Worldview Engine
-Tìm điều creator tin, nhận ra hoặc nhìn khác số đông sau trải nghiệm.
+Story Material Bank lưu trải nghiệm, chi tiết, sai lầm, cuộc gặp, quan sát và turning points để tái khai thác.
 
-### 4.4 Mirror Story Engine
-`Personal Event → Personal Emotion → Universal Tension → Viewer Recognition → Insight`
+## 5. CONTENT UNIVERSE INTELLIGENCE — NEW v1.6
 
-Mục tiêu là tạo cảm giác “đây là mình” mà không giả định tất cả người xem có cùng hoàn cảnh.
+VKSF không xem content library là một danh sách video. Nó là một **Content Universe** có cấu trúc.
 
-### 4.5 Story Material Bank
-Lưu các trải nghiệm, chi tiết, sai lầm, thay đổi quan điểm, cuộc gặp và quan sát đời thường để tái sử dụng thành nhiều story khác nhau.
+`Universe → Territory → Theme → Problem → Angle → Story → Video`
 
-## 5. CONTENT UNIVERSE ENGINE
+### 5.1 Universe Core
+Mỗi universe cần có:
+- Core Worldview.
+- Audience Tension.
+- Brand Promise.
+- Boundaries.
 
-Không xây kênh bằng các video rời rạc. Xây một **Content Universe**.
+### 5.2 Territory Map
+Một worldview được chia thành 5–10 territories khác nhau về problem hoặc tension.
 
-`Universe → Territories → Themes → Angles → Stories → Videos`
+### 5.3 Theme Matrix
+Mỗi territory mở rộng theo:
+`Situation × Emotion × Conflict × Belief × Behavior × Consequence × Reframe`
 
-### Core Worldview
-Mỗi kênh cần có một hoặc vài niềm tin/góc nhìn trung tâm.
+### 5.4 Story Source Diversity
+Nguồn chất liệu gồm:
+- Experience
+- Observation
+- Conversation
+- Mistake
+- Success
+- Failure
+- Knowledge
+- Contrarian Belief
+- Cultural Pattern
 
-### Content Territories
-Các vùng chủ đề lặp lại xung quanh worldview nhưng có tension khác nhau.
+### 5.5 Content Gap Detection
+Tìm territory, problem, emotion, audience segment, source hoặc format còn thiếu.
 
-### Content Gaps
-Khoảng trống chưa được khai thác trong content library.
+### 5.6 Universe Coverage Score
+Đánh giá:
+- Territory Coverage
+- Problem Coverage
+- Emotional Coverage
+- Source Diversity
+- Audience Segment Coverage
+- Format Diversity
+- Worldview Consistency
 
-### Anti-Cannibalization
-Các video phải khác nhau ở problem, tension, angle hoặc insight; không chỉ đổi headline.
+### 5.7 Cannibalization
+- DUPLICATE: cùng problem + angle + insight.
+- SIMILAR: trùng 2/3 yếu tố.
+- UNIQUE: khác biệt đủ rõ.
 
-## 6. Story Architecture
+Không chỉ kiểm tra title.
+
+### 5.8 Fatigue / Saturation
+Theo dõi nguy cơ lặp:
+- Territory.
+- Emotional pattern.
+- Format.
+- Hook type.
+- Story structure.
+
+### 5.9 100-Video Expansion
+Universe có thể mở rộng thành roadmap:
+- 20 Foundational.
+- 30 Relatable.
+- 20 Authority/Knowledge.
+- 15 Personal Story.
+- 10 Experimental.
+- 5 Flagship.
+
+Các tỷ lệ là mặc định và có thể điều chỉnh theo brand.
+
+## 6. Story + Angle + Hook Intelligence
+
+### Angle Intelligence
+Tạo nhiều angle theo perception shift, không chỉ đổi headline.
+
+### Hook Intelligence
+`Angle × Hook Type × Psychological Mechanism`
+
+Hook phải cân bằng:
+`Attention + Value Promise + Curiosity`
+
+### Title vs Hook
+- Title = lý do để chọn xem.
+- Hook = lý do để tiếp tục xem.
+
+### Promise → Payoff Contract
+`Title/Hook Promise → Content Delivery → Payoff`
+
+## 7. Story Architecture
 
 ### Knowledge-led
-`Hook → Open Loop → Story → Mirror Moment → Knowledge → Insight → Transformation → Reflection → Share Trigger`
+`Hook → Open Loop → Story → Mirror → Knowledge → Insight → Transformation → Reflection → Share`
 
 ### Personal Story-led
-`Hook → Real-life Detail → Tension → Mirror Moment → Reframe → Insight → Transformation → Reflection → Share Trigger`
+`Hook → Real-life Detail → Tension → Mirror → Reframe → Insight → Transformation → Reflection → Share`
 
-## 7. AI CONTENT OPERATING SYSTEM
+## 8. AI CONTENT OPERATING SYSTEM
 
-VKSF có 5 mode:
+### MODE A — UNIVERSE
+`Define Worldview → Map Territories → Build Themes → Find Gaps → Expand Ideas → Check Coverage`
 
-### MODE A — BATCH
+### MODE B — BATCH
 `Generate → Score → Deduplicate → Prioritize → Cluster → Queue → Calendar`
 
-### MODE B — PRODUCTION
-`Diagnose → Angle → Hook → Emotion → Retention → Story → Knowledge → Insight → Script → Storyboard → Voice → Packaging → QA`
+### MODE C — INTELLIGENCE
+`Source → Problem → Worldview → Angle Matrix → Hook Matrix → Promise/Payoff → Winner`
 
-### MODE C — PERSONAL STORY
-`Experience → Universal Problem → Worldview → Mirror Story → Insight → Production Pack`
+### MODE D — PRODUCTION
+`Diagnose → Story/Knowledge → Insight → Script → Retention → Storyboard → Voice → Packaging → QA`
 
-### MODE D — LEARNING
-`Measure → Compare → Detect Patterns → Form Hypotheses → Update Rules → Next Experiment`
+### MODE E — LEARNING
+`Measure → Compare → Detect Patterns → Hypotheses → Experiments → Rules`
 
-### MODE E — FULL AUTO
-`Universe → Batch → Production → Calendar → Publish → Learning → Next Batch`
+### MODE F — FULL AUTO
+`Universe → Batch → Intelligence → Production → Calendar → Publish → Learning → Universe Update`
 
-## 8. Production Package
+## 9. Production Package
 
-Mỗi video được đóng gói thành:
 `Strategy → Hook → Story → Knowledge → Insight → Script → Storyboard → Voice → Packaging → Quality Gate → Publish → Analytics → Learning`
 
-## 9. Knowledge Standard
+## 10. Knowledge Standard
 
-Mọi nội dung kiến thức phải phân biệt:
+Tách rõ:
 - Fact
 - Explanation
 - Example
@@ -113,67 +171,68 @@ Mọi nội dung kiến thức phải phân biệt:
 
 Không bịa nguồn, số liệu, nghiên cứu, chuyên gia hoặc trích dẫn. Claim chưa chắc chắn phải đánh dấu `[CẦN NGUỒN]`.
 
-## 10. Whiteboard System
+## 11. Whiteboard System
 
 - Nền trắng.
 - Marker/doodle nét tay.
 - Draw-on animation.
-- Ít chi tiết nhưng biểu tượng rõ.
-- Một nhân vật nhất quán.
-- Mỗi cảnh một ý chính.
-- Text ngắn và dễ đọc trên mobile.
+- Một ý chính mỗi cảnh.
+- Nhân vật nhất quán.
+- Text ngắn, mobile-first.
+- Hình ảnh phải hỗ trợ hiểu nội dung.
 
-## 11. Analytics Loop
+## 12. Analytics & Learning
 
-Theo dõi tối thiểu:
+Theo dõi:
 `Views, 3s Retention, Average Watch Time, Completion Rate, Likes, Comments, Saves, Shares, Follows, Share Rate, Save Rate`
 
-Phân biệt **Observation → Hypothesis → Experiment → Result**.
+Phân biệt:
+`Observation → Hypothesis → Experiment → Result`
 
-## 12. Learning Rules
-
-- Không suy luận nguyên nhân chắc chắn từ một chỉ số.
-- Ưu tiên pattern lặp lại qua nhiều video.
-- Chuyển learning thành Next Batch Rules.
-- Mỗi batch nên có ít nhất một experiment mới.
+Mỗi batch phải tạo learning để cập nhật Content Universe.
 
 ## 13. Quality Gate
 
-Trước khi xuất bản:
-- Hook đủ mạnh trong 3 giây đầu.
-- Open loop có payoff.
-- Có Mirror Moment khi phù hợp.
-- Story có chi tiết cụ thể.
+Kiểm tra:
+- Hook 3 giây.
+- Value Promise rõ.
+- Open Loop có payoff.
+- Story có detail.
+- Mirror Moment phù hợp.
 - Knowledge có căn cứ.
 - Insight tạo reframe.
 - Transformation có thể áp dụng.
 - Ending đáng nhớ.
 - CTA tự nhiên.
 - Không deceptive clickbait.
-- Không trùng lặp với content library.
+- Không trùng/cannibalize content library.
 
-Nếu điểm Quality <80/100, hệ thống phải tự sửa một vòng rồi chấm lại.
+Nếu Quality <80/100: tự sửa một vòng và chấm lại.
 
-## 14. End-to-End Architecture
+## 14. END-TO-END
 
 ```text
-LIFE / KNOWLEDGE / OBSERVATION
-            ↓
-     CONTENT UNIVERSE
-            ↓
-   EXPERIENCE / TOPIC BANK
-            ↓
-       BATCH FACTORY
-            ↓
-        TOP CONTENT
-            ↓
-       STORY + KNOWLEDGE
-            ↓
-      PRODUCTION PACK
-            ↓
-       PUBLISH + DATA
-            ↓
-       LEARNING LOOP
-            ↓
-     NEXT CONTENT UNIVERSE
+WORLDVIEW / LIFE / KNOWLEDGE / OBSERVATION
+                    ↓
+             CONTENT UNIVERSE
+                    ↓
+        TERRITORIES + THEME MATRIX
+                    ↓
+              CONTENT GAPS
+                    ↓
+               IDEA BANK
+                    ↓
+              BATCH FACTORY
+                    ↓
+          ANGLE + HOOK INTELLIGENCE
+                    ↓
+             PRODUCTION PACK
+                    ↓
+             PUBLISH + DATA
+                    ↓
+             LEARNING LOOP
+                    ↓
+          UPDATE CONTENT UNIVERSE
+                    ↓
+               NEXT BATCH
 ```
