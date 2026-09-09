@@ -1,4 +1,4 @@
-# VKSF SYSTEM v1.0
+# VKSF SYSTEM v1.3
 
 ## 1. Brand DNA
 
@@ -13,63 +13,62 @@ VKSF tạo nội dung tri thức có tính ứng dụng, chiều sâu và khả 
 - Nghệ thuật sống: trưởng thành, ranh giới, tử tế, buông bỏ, giá trị sống.
 - Triết học thực tiễn: khổ đau, tự do, ý nghĩa, hạnh phúc, bản ngã.
 
-## 3. 3E Emotion Engine
+## 3. Core Engines
 
-### Engage / Surprise
-Tạo nghịch lý, sự thật trái trực giác hoặc câu hỏi khiến người xem phải dừng lại.
+### 3E Emotion
+**Engage/Surprise → Empathize → Enlighten/Reflection**
 
-### Empathize
-Đưa người xem vào một khoảnh khắc đời thường chính xác đến mức họ thấy mình trong đó.
+### 5R Retention
+**Curiosity Gap → Mirror Moment → Insight → Transformation → Share/Save Trigger**
 
-### Enlighten
-Kết thúc bằng một insight giúp người xem nhìn vấn đề theo cách mới.
+### Viral Score /100
+- Hook 20
+- Curiosity 15
+- Relatability 15
+- Emotional Impact 15
+- Knowledge Value 15
+- Novelty 10
+- Shareability 10
 
-## 4. 5R Retention Engine
+Score dùng để ưu tiên, không phải dự đoán chắc chắn lượt xem.
 
-1. Curiosity Gap — mở vòng tò mò.
-2. Mirror Moment — khoảnh khắc “đây chính là mình”.
-3. Insight — giải thích điều thực sự đang xảy ra.
-4. Transformation — cho thấy cách nhìn/cách làm mới.
-5. Share/Save Trigger — lý do tự nhiên để lưu hoặc gửi cho người khác.
-
-## 5. Viral Score / 100
-
-- Hook: 20
-- Curiosity: 15
-- Relatability: 15
-- Emotional Impact: 15
-- Knowledge Value: 15
-- Novelty: 10
-- Shareability: 10
-
-Chỉ số này dùng để ưu tiên ý tưởng, không phải dự đoán chắc chắn lượt xem.
-
-## 6. Story Architecture
+## 4. Story Architecture
 
 `Hook → Open Loop → Story → Mirror Moment → Knowledge → Insight → Transformation → Reflection → Share Trigger`
 
-### Mốc tham khảo cho video 60–90 giây
+## 5. AI CONTENT OPERATING SYSTEM
 
-- 0–3s: Hook
-- 3–8s: Open Loop
-- 8–25s: Story
-- 25–40s: Mirror Moment
-- 40–60s: Knowledge + Insight
-- 60–75s: Transformation
-- 75–90s: Reflection + Share Trigger
+VKSF v1.3 có 3 mode:
 
-Có thể co giãn theo nền tảng và chủ đề.
+### MODE A — BATCH
+`Generate → Score → Deduplicate → Prioritize → Cluster → Queue → Calendar`
 
-## 7. Knowledge Engine
+### MODE B — PRODUCTION
+`Diagnose → Angle → Hook → Emotion → Retention → Story → Knowledge → Insight → Script → Storyboard → Voice → Packaging → QA`
 
-Mọi video kiến thức cần phân biệt:
+### MODE C — LEARNING
+`Measure → Compare → Detect Patterns → Form Hypotheses → Update Rules → Next Experiment`
 
-- Fact: điều có bằng chứng.
-- Interpretation: cách giải thích.
-- Example: ví dụ minh họa.
-- Application: cách áp dụng.
+### MODE D — FULL AUTO
+`Batch → Production → Learning`
 
-Không biến giả thuyết thành sự thật. Không dùng thuật ngữ để tạo vẻ uyên bác nếu không giải thích được bằng ngôn ngữ đời thường.
+Input có thể là một pillar, một topic, hoặc topic + performance data.
+
+## 6. Production Package
+
+Mỗi video được đóng gói thành:
+
+`Strategy → Hook → Story → Knowledge → Insight → Script → Storyboard → Voice → Packaging → Quality Gate → Publish → Analytics`
+
+## 7. Knowledge Standard
+
+Mọi nội dung kiến thức phải phân biệt:
+- Fact
+- Explanation
+- Example
+- Application
+
+Không bịa nguồn, số liệu, nghiên cứu, chuyên gia hoặc trích dẫn. Claim chưa chắc chắn phải đánh dấu `[CẦN NGUỒN]`.
 
 ## 8. Whiteboard System
 
@@ -77,47 +76,55 @@ Không biến giả thuyết thành sự thật. Không dùng thuật ngữ đ�
 - Marker/doodle nét tay.
 - Draw-on animation.
 - Ít chi tiết nhưng biểu tượng rõ.
-- Một nhân vật nhất quán xuyên video.
-- Mỗi cảnh chỉ truyền tải một ý chính.
-- Text trên màn hình ngắn, dễ đọc trên mobile.
+- Một nhân vật nhất quán.
+- Mỗi cảnh một ý chính.
+- Text ngắn và dễ đọc trên mobile.
 
-## 9. Ending Engine
+## 9. Batch Strategy
 
-Ưu tiên 4 kiểu kết:
+Content Factory phải:
+1. Sinh nhiều ý tưởng.
+2. Chấm điểm.
+3. Loại duplicate.
+4. Xử lý similar/cannibalization.
+5. Chọn Top 5.
+6. Phân cluster.
+7. Tạo production queue.
+8. Tạo calendar.
 
-1. Reframe — đổi cách nhìn.
-2. Paradox — nghịch lý đáng nhớ.
-3. Wisdom — câu kết như lời người từng trải.
-4. Mirror — trả câu hỏi về chính người xem.
+Không để các video liên tiếp có cùng core problem, emotional pattern hoặc story structure.
 
-## 10. Share Engine
+## 10. Analytics Loop
 
-Không ép “hãy share”. Tạo lý do chia sẻ bằng:
+Theo dõi tối thiểu:
+`Views, 3s Retention, Average Watch Time, Completion Rate, Likes, Comments, Saves, Shares, Follows, Share Rate, Save Rate`
 
-- “Gửi cho người đang cần nghe điều này.”
-- Một câu đủ đúng để người xem muốn gửi cho bạn bè.
-- Một insight hữu ích để lưu lại.
-- Một câu hỏi khiến người xem muốn thảo luận.
+Một video không chỉ tạo lượt xem; nó phải tạo **learning** cho batch tiếp theo.
 
-## 11. Production Pipeline
+## 11. Learning Rules
 
-`Idea → Viral Score → Angle → Hooks ×5 → Emotion Map → Story → Research → Insight → Script → Retention Check → Visual Script → Storyboard → Voiceover → Title → Caption → Hashtags → Publish → Analytics → Learning`
+- Không suy luận nguyên nhân chắc chắn từ một chỉ số.
+- Phân biệt observation và hypothesis.
+- Ưu tiên pattern lặp lại qua nhiều video.
+- Chuyển learning thành Next Batch Rules.
+- Mỗi batch nên có ít nhất một experiment mới.
 
 ## 12. Quality Gate
 
-Trước khi xuất bản, kiểm tra:
+Trước khi xuất bản:
+- Hook đủ mạnh trong 3 giây đầu.
+- Open loop có payoff.
+- Có Mirror Moment.
+- Knowledge có căn cứ.
+- Insight tạo reframe.
+- Transformation có thể áp dụng.
+- Ending đáng nhớ.
+- CTA tự nhiên.
+- Không deceptive clickbait.
+- Không trùng lặp với content library.
 
-- Hook có đủ mạnh trong 3 giây đầu không?
-- Người xem có lý do xem tiếp không?
-- Có một khoảnh khắc đồng cảm thật không?
-- Kiến thức có giá trị hay chỉ là khẩu hiệu?
-- Có một insight mới không?
-- Có câu kết đáng nhớ không?
-- Hình ảnh có thể hiểu ngay khi tắt tiếng không?
-- Không có claim quá mức hoặc thông tin thiếu căn cứ?
+Nếu điểm Quality <80/100, hệ thống phải tự sửa một vòng rồi chấm lại.
 
-## 13. Analytics Loop
+## 13. End-to-End Pipeline
 
-Theo dõi tối thiểu: views, 3-second retention, average watch time, completion rate, likes, comments, saves, shares, follows, share rate, save rate.
-
-Mỗi video phải tạo ra ít nhất một bài học để cải thiện video kế tiếp.
+`Pillar/Topic → Batch Factory → Top 5 → Production Pack ×5 → Calendar → Publish → Analytics → Learning → Next Batch Rules → New Batch`
