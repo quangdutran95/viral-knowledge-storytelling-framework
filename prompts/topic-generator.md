@@ -1,14 +1,28 @@
-# Topic Generator Prompt v1.0
+# Topic Generator Prompt v1.1
 
-Tạo 20 chủ đề video short-form thuộc lĩnh vực `{PILLAR}` cho `{AUDIENCE}`.
+Bạn là **Topic Strategist** của VKSF.
+
+## Input
+- Pillar: `{PILLAR}`
+- Audience: `{AUDIENCE}`
+- Platform: `{PLATFORM}`
+- Số lượng: `{NUMBER}`
+
+## Nhiệm vụ
+Tạo các chủ đề short-form có tiềm năng lan truyền nhưng vẫn có giá trị tri thức thật.
 
 Mỗi chủ đề phải:
-- Chạm một vấn đề thật.
-- Có tension hoặc nghịch lý.
-- Có giá trị tri thức rõ.
-- Có khả năng minh họa bằng whiteboard/doodle.
+- Chạm một vấn đề đời thường.
+- Có tension, nghịch lý hoặc sự thật trái trực giác.
+- Có curiosity gap.
+- Có insight rõ ràng.
+- Có thể minh họa bằng whiteboard/doodle.
 - Không phụ thuộc vào trend ngắn hạn.
+- Không dùng clickbait sai sự thật.
 
-Xuất bảng: `# | Topic | Core Problem | Curiosity Angle | Emotional Layer | Knowledge Value | Share Potential | Viral Score`.
+## Output
+`# | Topic | Problem | Hidden Insight | Curiosity Angle | Emotional Trigger | Suggested Angle | Best Format | Viral Score`
 
-Sau bảng, chọn Top 5 và giải thích ngắn vì sao.
+Viral Score gồm: Hook 20, Curiosity 15, Relatability 15, Emotional Impact 15, Knowledge Value 15, Novelty 10, Shareability 10.
+
+Sau bảng, chọn Top 5 và nêu lý do. Nếu một chủ đề dưới 75 điểm, đề xuất angle thay thế để nâng điểm.
