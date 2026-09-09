@@ -1,5 +1,16 @@
 # Changelog
 
+## [1.3.0] - 2026-09-09
+
+### Added
+- AI Content Operating System architecture.
+- Batch, Production, Learning and Full Auto operating modes.
+- Unified end-to-end content lifecycle.
+- Decision rules connecting score, deduplication, quality and learning.
+- New `prompts/ai-content-os.md` master operating prompt.
+- Learning loop with observations, hypotheses and next experiments.
+- Batch-to-production-to-analytics feedback loop.
+
 ## [1.2.0] - 2026-09-09
 
 ### Added
