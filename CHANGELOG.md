@@ -1,27 +1,36 @@
 # Changelog
 
+## [1.8.0] - 2026-09-09
+
+### Added
+- Retention Intelligence Engine.
+- Segment-by-segment retention modeling.
+- Retention Curve Map as a pre-publish prediction layer.
+- Micro-Hook Engine.
+- Question Chain retention checks.
+- Progress Engine for information/story/emotion/meaning progress.
+- Swipe-Risk Engine.
+- Emotional Rhythm analysis.
+- Micro, Mid and Final Payoff timing.
+- Retention Score /100.
+- Automatic retention rewrite loop when score is below threshold.
+- Performance learning: predicted retention vs actual retention.
+- `prompts/retention-intelligence.md`.
+- `templates/retention-map.md`.
+
+### Changed
+- Production Pack now includes a Retention Map before storyboard generation.
+- Narrative Intelligence is now evaluated together with retention dynamics.
+- Full Auto pipeline now runs Retention Intelligence before Production.
+- Quality Gate includes progress, micro-hook, swipe-risk and payoff timing checks.
+
 ## [1.7.0] - 2026-09-09
 
 ### Added
 - Narrative Intelligence Engine.
-- Story Mining: event, setting, characters, micro-details, emotion, expectation, tension and change.
-- Story Worthiness scoring.
-- Tension Engine with five tension types.
-- Question Chain architecture.
-- Micro-Detail Engine.
-- Story Loop Engine for multi-loop retention.
-- Turning Point and Payoff detection.
-- Emotional Payoff using show-don't-label logic.
-- Meaning/Worldview extraction.
+- Story Mining, Story Worthiness, Tension Engine, Question Chain, Micro-Detail Engine, Story Loop Engine, Turning Point, Emotional Payoff and Meaning extraction.
 - Narrative Map template.
 - `prompts/narrative-intelligence.md`.
-- `templates/narrative-map.md`.
-
-### Changed
-- VKSF storytelling is now evaluated as expectation + question + tension + payoff management, not just event sequencing.
-- Retention now includes narrative micro-loops in addition to the existing 5R model.
-- Personal Storytelling and Knowledge Storytelling can both route through Narrative Intelligence.
-- Quality Gate now checks for real tension, concrete detail, earned payoff and meaningful change where appropriate.
 
 ## [1.6.0] - 2026-09-09
 
