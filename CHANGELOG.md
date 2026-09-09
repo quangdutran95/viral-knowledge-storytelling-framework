@@ -1,5 +1,24 @@
 # Changelog
 
+## [1.9.0] - 2026-09-09
+
+### Added
+- Communication Concept Intelligence Layer.
+- Concept-as-mechanism model.
+- Concept Library with mechanism, use case, perception shift, strength and risk.
+- Perception Transformation engine.
+- Concept Stacking.
+- Concept Matrix.
+- Truth Gate for factual accuracy, context, numbers, scarcity, comparison and promise safety.
+- Concept propagation from title/hook into narrative, micro-hook, visual, emotional beat and payoff.
+- Separate Concept Intelligence prompt.
+- Concept Intelligence Map template.
+
+### Changed
+- End-to-end architecture now flows through Communication Concept before Title/Hook.
+- Hook design is no longer only wording optimization; it includes perception transformation and concept selection.
+- Learning can track winning communication concepts alongside hooks, angles, stories and territories.
+
 ## [1.8.0] - 2026-09-09
 
 ### Added
