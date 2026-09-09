@@ -1,5 +1,29 @@
 # Changelog
 
+## [1.6.0] - 2026-09-09
+
+### Added
+- Content Universe Intelligence Layer.
+- Universe Core: worldview, audience tension, brand promise and boundaries.
+- Territory Map with problem/tension-based territories.
+- Theme Matrix using Situation × Emotion × Conflict × Belief × Behavior × Consequence × Reframe.
+- Story Source Diversity model.
+- Content Gap Detection.
+- Universe Coverage Score.
+- Content Tree: Universe → Territory → Theme → Problem → Angle → Story → Video.
+- Cannibalization classification at problem/angle/insight level.
+- Fatigue and saturation tracking by territory, emotion, format, hook type and story structure.
+- 100-Video Expansion roadmap.
+- Content Rotation Rules.
+- `prompts/content-universe-intelligence.md`.
+- `templates/content-universe-map.md`.
+
+### Changed
+- AI Content Operating System expanded with a dedicated UNIVERSE mode.
+- Full Auto now begins with Universe intelligence and updates the universe after learning.
+- Content library is treated as a structured knowledge graph rather than a flat list of topics.
+- Batch planning now uses content coverage and saturation signals in addition to viral scoring.
+
 ## [1.5.0] - 2026-09-09
 
 ### Added
@@ -15,16 +39,6 @@
 - Title Value Stack for utility content.
 - Promise → Content Delivery → Payoff contract.
 - Angle Score /100 and Hook Score /100.
-- `prompts/story-angle-hook-intelligence.md`.
-- `templates/hook-matrix.md`.
-- `templates/story-material.md`.
-- `docs/VKSF-v1.5.md`.
-
-### Changed
-- AI Content Operating System upgraded from v1.3 to v1.5.
-- Content decisions now flow through Source → Problem → Worldview → Angle → Hook before production.
-- Hook generation is no longer treated as simple copy generation; it is evaluated as an intelligence and promise-design layer.
-- Personal Storytelling and Knowledge Storytelling are unified under the same decision architecture.
 
 ## [1.4.0] - 2026-09-09
 
@@ -34,16 +48,8 @@
 - Problem Mining layer for universal audience problems.
 - Worldview/Reframe Engine.
 - Mirror Story Engine.
-- Story Material Bank template.
 - Content Universe Engine.
 - Universe → Territories → Themes → Angles → Stories → Videos architecture.
-- Personal Story mode in the AI Content Operating System.
-- Anti-cannibalization rules at story/universe level.
-
-### Changed
-- VKSF is no longer knowledge-led only; it supports knowledge-led and personal-story-led production.
-- Story architecture now includes a dedicated Personal Story flow.
-- System-level architecture upgraded from v1.3 to v1.4.
 
 ## [1.3.0] - 2026-09-09
 
@@ -51,43 +57,23 @@
 - AI Content Operating System architecture.
 - Batch, Production, Learning and Full Auto operating modes.
 - Unified end-to-end content lifecycle.
-- Decision rules connecting score, deduplication, quality and learning.
-- Learning loop with observations, hypotheses and next experiments.
 
 ## [1.2.0] - 2026-09-09
 
 ### Added
 - Batch Content Factory architecture.
-- Batch idea generation, scoring and prioritization.
-- Duplicate and cannibalization checks.
+- Batch idea generation and prioritization.
+- Duplicate/cannibalization checks.
 - Content clustering and production queue.
-- 5–7 day content calendar logic.
-- Performance learning and Next Batch Rules.
-- Production Package template.
-- Content Factory architecture documentation.
 
 ## [1.1.0] - 2026-09-09
 
 ### Added
 - VKSF Master Prompt v1.1.
-- Topic diagnosis and hidden-truth analysis.
-- 3-angle selection engine.
-- 5-hook engine.
-- 3E Emotion Engine integration.
-- 5R Retention Engine integration.
-- Retention self-check and self-correction.
-- Whiteboard storyboard specification.
-- Voice direction and packaging outputs.
-- Quality Gate with automatic revision when below threshold.
+- Topic diagnosis, angle selection, hook engine, retention self-check and quality gate.
 
 ## [1.0.0] - 2026-09-09
 
 ### Added
 - VKSF system architecture.
-- Brand DNA and six content pillars.
-- 3E Emotion Engine.
-- 5R Retention Engine.
-- Viral Score / 100.
-- Story Architecture for 60–90s videos.
-- Knowledge, Whiteboard, Ending, Share and Analytics systems.
-- Production pipeline and quality gate.
+- Brand DNA, content pillars, emotion, retention, story, knowledge, whiteboard, ending, share and analytics systems.
