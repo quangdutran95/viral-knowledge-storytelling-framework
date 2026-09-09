@@ -4,17 +4,17 @@ Hệ thống sản xuất nội dung tri thức và storytelling dành cho TikTo
 
 ## Mục tiêu
 
-VKSF biến **knowledge hoặc trải nghiệm thật** thành một hệ thống nội dung có chiến lược: nguồn chất liệu → Content Universe → vấn đề → worldview → angle → title/hook → story → insight → production → analytics → learning.
+VKSF biến **knowledge, trải nghiệm thật hoặc quan sát đời sống** thành một Content Universe có thể phát triển dài hạn: `source → worldview → universe → territory → theme → problem → angle → title/hook → story/knowledge → insight → production → analytics → learning`.
 
 ## Triết lý cốt lõi
 
 **Ngạc nhiên → Đồng cảm → Suy ngẫm.**
 
-VKSF không đảm bảo viral. Hệ thống tối ưu chất lượng attention, value, empathy, retention, shareability và khả năng học từ dữ liệu.
+VKSF không đảm bảo viral. Hệ thống tối ưu attention, value, empathy, retention, shareability, brand consistency và khả năng học từ dữ liệu.
 
-## Kiến trúc v1.5
+## Kiến trúc v1.6
 
-### 21 lớp hệ thống
+### Core layers
 1. Content DNA
 2. Topic Engine
 3. Viral Score
@@ -36,9 +36,10 @@ VKSF không đảm bảo viral. Hệ thống tối ưu chất lượng attention
 19. Worldview/Reframe Engine
 20. Mirror Story Engine
 21. Story + Angle + Hook Intelligence
+22. **Content Universe Intelligence**
 
 ### Content Universe
-`Worldview → Territory → Theme → Angle → Story → Video`
+`Universe → Territory → Theme → Problem → Angle → Story → Video`
 
 ### Content Factory
 `Generate → Score → Deduplicate → Prioritize → Cluster → Queue → Calendar → Learn → Next Batch`
@@ -48,6 +49,47 @@ VKSF không đảm bảo viral. Hệ thống tối ưu chất lượng attention
 
 ### Production Pack
 `Strategy → Hook → Story → Knowledge → Insight → Script → Storyboard → Voice → Packaging → Quality Gate → Publish → Analytics`
+
+## Content Universe Intelligence v1.6
+
+Mỗi channel được quản lý như một **Content Universe**, không phải danh sách video rời rạc.
+
+### Universe Core
+- Core Worldview
+- Audience Tension
+- Brand Promise
+- Boundaries
+
+### Territory Map
+Mỗi worldview được chia thành 5–10 territories có problem/tension riêng.
+
+### Theme Matrix
+Mở rộng theo:
+`Situation × Emotion × Conflict × Belief × Behavior × Consequence × Reframe`
+
+### Story Source Diversity
+Nguồn chất liệu:
+`Experience, Observation, Conversation, Mistake, Success, Failure, Knowledge, Contrarian Belief, Cultural Pattern`
+
+### Coverage
+Kiểm tra Territory, Problem, Emotion, Source, Audience Segment, Format và Worldview Coverage.
+
+### Anti-Cannibalization
+- DUPLICATE: cùng problem + angle + insight.
+- SIMILAR: trùng 2/3.
+- UNIQUE: khác biệt đủ rõ.
+
+### Fatigue / Saturation
+Theo dõi sự lặp lại của territory, emotion, format, hook type và story structure.
+
+### 100-Video Roadmap
+Universe mặc định có thể mở rộng thành:
+- 20 Foundational
+- 30 Relatable
+- 20 Authority/Knowledge
+- 15 Personal Story
+- 10 Experimental
+- 5 Flagship
 
 ## Hai nguồn nội dung
 
@@ -66,14 +108,11 @@ VKSF tách:
 - **Title:** lý do để chọn xem.
 - **Hook:** lý do để tiếp tục xem.
 
-Nguyên tắc:
-
 `Hook = Attention + Value Promise + Curiosity`
 
 Hook Matrix gồm: Curiosity, Value, Contrarian, Personal Story, Mirror, Warning/Loss.
 
 Mọi hook phải vượt qua:
-
 `Promise → Content Delivery → Payoff`
 
 ## Scoring
@@ -89,17 +128,38 @@ Mọi hook phải vượt qua:
 
 Các score dùng để ưu tiên và kiểm tra, không phải dự đoán chắc chắn lượt xem.
 
+## AI Operating Modes
+
+### UNIVERSE
+`Define Worldview → Map Territories → Build Themes → Find Gaps → Expand Ideas → Check Coverage`
+
+### BATCH
+`Generate → Score → Deduplicate → Prioritize → Cluster → Queue → Calendar`
+
+### INTELLIGENCE
+`Source → Problem → Worldview → Angles → Hooks → Promise/Payoff → Winner`
+
+### PRODUCTION
+`Diagnose → Story/Knowledge → Insight → Script → Retention → Storyboard → Voice → Packaging → QA`
+
+### LEARNING
+`Measure → Compare → Patterns → Hypotheses → Experiments → Rules`
+
+### FULL AUTO
+`Universe → Batch → Intelligence → Production → Calendar → Publish → Learning → Universe Update`
+
 ## Thư mục quan trọng
 
-- `SYSTEM.md` — hệ thống tổng thể.
+- `SYSTEM.md` — kiến trúc hệ thống.
 - `prompts/ai-content-os.md` — AI Content Operating System.
-- `prompts/master-prompt.md` — production pack cho một topic.
-- `prompts/content-factory.md` — batch content factory.
-- `prompts/story-angle-hook-intelligence.md` — intelligence layer.
+- `prompts/content-universe-intelligence.md` — Content Universe Engine v1.6.
+- `prompts/story-angle-hook-intelligence.md` — Intelligence Layer.
+- `prompts/master-prompt.md` — production pack.
+- `prompts/content-factory.md` — batch factory.
+- `templates/content-universe-map.md` — bản đồ universe.
 - `templates/production-package.md` — production package.
 - `templates/story-material.md` — story material bank.
 - `templates/hook-matrix.md` — hook matrix.
-- `docs/VKSF-v1.5.md` — kiến trúc v1.5.
 
 ## Phiên bản
 
@@ -109,7 +169,8 @@ Các score dùng để ưu tiên và kiểm tra, không phải dự đoán chắ
 - **v1.3** — AI Content Operating System.
 - **v1.4** — Personal Storytelling + Content Universe.
 - **v1.5** — Story + Angle + Hook Intelligence Layer.
+- **v1.6** — Content Universe Intelligence.
 
-## End-to-End Pipeline
+## End-to-End
 
-`Experience/Knowledge → Mine → Universalize → Worldview → Angle → Title/Hook → Story/Knowledge → Mirror → Insight → Transformation → Retention → Production → Publish → Analytics → Learning → Next Batch`
+`Experience/Knowledge → Universe → Territory → Theme → Problem → Angle → Title/Hook → Story/Knowledge → Mirror → Insight → Transformation → Retention → Production → Publish → Analytics → Learning → Universe Update`
