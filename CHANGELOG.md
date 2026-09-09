@@ -1,5 +1,31 @@
 # Changelog
 
+## [1.5.0] - 2026-09-09
+
+### Added
+- Story + Angle + Hook Intelligence Layer.
+- Source classification: Experience, Knowledge, Hybrid.
+- Story Material Mining: Event, Detail, Emotion, Tension, Mistake, Turning Point, Worldview.
+- Personal-to-Universal conversion and Mirror Story logic.
+- Worldview/Reframe-driven angle generation.
+- Angle Matrix with perception-shift testing.
+- Attention × Value principle for hook construction.
+- Hook Matrix with Curiosity, Value, Contrarian, Personal Story, Mirror and Warning/Loss types.
+- Separate Title vs Hook roles.
+- Title Value Stack for utility content.
+- Promise → Content Delivery → Payoff contract.
+- Angle Score /100 and Hook Score /100.
+- `prompts/story-angle-hook-intelligence.md`.
+- `templates/hook-matrix.md`.
+- `templates/story-material.md`.
+- `docs/VKSF-v1.5.md`.
+
+### Changed
+- AI Content Operating System upgraded from v1.3 to v1.5.
+- Content decisions now flow through Source → Problem → Worldview → Angle → Hook before production.
+- Hook generation is no longer treated as simple copy generation; it is evaluated as an intelligence and promise-design layer.
+- Personal Storytelling and Knowledge Storytelling are unified under the same decision architecture.
+
 ## [1.4.0] - 2026-09-09
 
 ### Added
@@ -27,7 +53,6 @@
 - Unified end-to-end content lifecycle.
 - Decision rules connecting score, deduplication, quality and learning.
 - Learning loop with observations, hypotheses and next experiments.
-- Batch-to-production-to-analytics feedback loop.
 
 ## [1.2.0] - 2026-09-09
 
