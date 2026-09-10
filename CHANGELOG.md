@@ -1,5 +1,28 @@
 # Changelog
 
+## [2.0.0] - 2026-09-10
+
+### Added
+- Channel Strategy Intelligence Layer.
+- Channel DNA model: WHO, WHY, CORE PROBLEM, PROMISE, WORLDVIEW, VOICE, BOUNDARY, PROOF.
+- Audience Model based on Identity, Situation, Friction, Desire, Fear, Existing Belief and Desired Belief.
+- One Audience — Many Problems architecture.
+- 3–5 Territory design rule.
+- 70/20/10 Core-Adjacent-Experimental content mix.
+- Channel Fit Gate with weighted scoring.
+- Channel Boundary Gate for reframing, territory transfer or channel transfer.
+- Audience Intent Cannibalization checks.
+- Channel Health Score dimensions.
+- Channel DNA template.
+- `/channel` operating mode.
+
+### Changed
+- Core VKSF architecture now starts at Channel DNA instead of Topic.
+- Default Chat Orchestrator now runs Channel Strategy before Source/Universe/Angle/Hook/Script.
+- AI-COS upgraded to v2.0 and treats Channel Fit as a hard pre-production gate.
+- Batch prioritization now considers channel fit before viral potential.
+- Learning loop can update Channel DNA and Content Universe, not only individual video tactics.
+
 ## [1.9.1] - 2026-09-09
 
 ### Added
