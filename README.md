@@ -4,141 +4,121 @@ Hệ thống sản xuất nội dung tri thức và storytelling dành cho TikTo
 
 ## Mục tiêu
 
-VKSF biến **knowledge, trải nghiệm thật hoặc quan sát đời sống** thành một Content Universe có thể phát triển dài hạn: `source → worldview → universe → territory → theme → problem → angle → communication concept → title/hook → narrative → retention → production → analytics → learning`.
+VKSF biến **knowledge, trải nghiệm thật hoặc quan sát đời sống** thành một hệ sinh thái nội dung có thể phát triển dài hạn, bắt đầu từ chiến lược kênh thay vì một topic đơn lẻ.
 
 ## Triết lý cốt lõi
 
+**1 Audience → 1 Core Problem → 1 Worldview → 3–5 Territories → hundreds of Topics.**
+
 **Ngạc nhiên → Đồng cảm → Suy ngẫm.**
 
-VKSF không đảm bảo viral. Hệ thống tối ưu attention, value, empathy, retention, shareability, brand consistency, truth safety và khả năng học từ dữ liệu.
+VKSF không đảm bảo viral. Hệ thống tối ưu channel fit, attention, value, retention, shareability, brand consistency, truth safety và khả năng học từ dữ liệu.
 
-## Kiến trúc v1.9
+## Kiến trúc v2.0
+
+`Channel DNA → Audience → Core Problem → Worldview → Content Universe → Territory → Theme → Problem → Angle → Communication Concept → Title/Hook → Narrative → Retention → Production → Analytics → Learning`
 
 ### Core layers
-1. Content DNA
-2. Topic Engine
-3. Viral Score
-4. Emotion Engine
-5. Retention Engine
-6. Story Architect
-7. Knowledge Engine
-8. Hook Engine
-9. Script Engine
-10. Visual Engine
-11. Whiteboard System
-12. Voice Engine
-13. Ending Engine
-14. Share Engine
-15. Distribution
-16. Analytics
-17. Experience Engine
-18. Problem Mining Engine
-19. Worldview/Reframe Engine
-20. Mirror Story Engine
-21. Story + Angle + Hook Intelligence
-22. Content Universe Intelligence
-23. Narrative Intelligence Engine
-24. Retention Intelligence Engine
-25. **Communication Concept Intelligence**
+1. Channel Strategy Intelligence
+2. Content Universe Intelligence
+3. Problem Mining Engine
+4. Worldview/Reframe Engine
+5. Story + Angle + Hook Intelligence
+6. Communication Concept Intelligence
+7. Narrative Intelligence Engine
+8. Retention Intelligence Engine
+9. Production System
+10. Analytics & Learning
 
-### Content Universe
+## Channel Strategy Intelligence
+
+### Channel DNA
+`WHO + WHY + CORE PROBLEM + PROMISE + WORLDVIEW + VOICE + BOUNDARY + PROOF`
+
+### Audience Model
+`Identity → Situation → Friction → Desire → Fear → Existing Belief → Desired Belief`
+
+### One Audience — Many Problems
+Kênh không cần một topic duy nhất. Nhiều topic được phép tồn tại khi cùng phục vụ audience, core problem, worldview và promise.
+
+### Territory Design
+Khởi đầu với 3–5 territories.
+
+### Content Mix
+`70% Core + 20% Adjacent + 10% Experimental`
+
+### Channel Fit Gate /100
+`Audience30 + Core Problem20 + Worldview20 + Brand Promise15 + Universe10 + Production5`
+
+- 85–100 → PRODUCE
+- 70–84 → REFRAME
+- 55–69 → EXPERIMENT
+- <55 → REJECT / MOVE TO OTHER CHANNEL
+
+**Không dùng Viral Score để cứu topic lệch audience.**
+
+### Channel Boundary
+Topic lệch audience/core problem/worldview/promise phải được `REFRAME`, chuyển territory hoặc chuyển channel.
+
+## Content Universe
+
 `Universe → Territory → Theme → Problem → Angle → Story → Video`
 
-### Communication Concept Layer
+VKSF kiểm tra thêm audience intent, content gaps, cannibalization và saturation.
+
+## Intelligence Layers
+
+### Story + Angle + Hook
+Source classification, Worldview/Reframe, Angle Matrix, Hook Matrix, Promise → Payoff.
+
+### Communication Concept
+Concept là **cơ chế thay đổi perception**, không phải từ khóa.
+
 `Base Content → Concept → Perception Shift → Concept Stack → Truth Gate → Title/Hook → Narrative/Visual Propagation → Payoff`
 
-### Intelligence Layer
-`Source → Universal Problem → Worldview → Angle Matrix → Communication Concept → Hook Matrix → Promise/Payoff Check → Narrative → Retention → Winner`
+### Narrative
+`Story Mining → Tension → Question Chain → Micro-Details → Story Loops → Turning Point → Payoff → Meaning`
 
-### Content Factory
-`Generate → Score → Deduplicate → Prioritize → Cluster → Queue → Calendar → Learn → Next Batch`
-
-## Communication Concept Intelligence v1.9
-
-### Concept as mechanism
-Concept không phải từ khóa để nhét vào headline. Concept là **cơ chế thay đổi perception** của người xem mà không thay đổi sự thật cốt lõi.
-
-### Concept Library
-Các concept có thể gồm:
-`Secret/Reveal, Number/Specificity, Magnitude/Scale, Contrast, Contradiction, Before/After, Hidden Gem, Warning/Loss, Curiosity, FOMO/Scarcity, Social Proof, Challenge, Comparison, Transformation, Confession, Story, Myth-busting, Unexpected Detail, Status/Prestige, Time Pressure`.
-
-Mỗi concept cần có mechanism, use case, perception shift, strength và risk.
-
-### Perception Transformation
-`Base Content → Concept → New Perception → Curiosity Question → Promise`
-
-### Concept Stacking
-Một hook có thể dùng:
-`Primary Concept + 1–2 Secondary Concepts + Optional Support`.
-
-Không stack quá nhiều làm mất tự nhiên hoặc clarity.
-
-### Truth Gate
-Kiểm tra:
-- Factual accuracy
-- Context accuracy
-- Real numbers
-- Real scarcity
-- Honest comparison
-- Promise matches delivery
-
-Concept mạnh nhưng claim không chắc chắn phải bị loại, hạ mức claim hoặc đánh dấu `[CẦN NGUỒN]`.
-
-### Propagation
-Concept được truyền xuống:
-`Title → Hook → Narrative → Micro-hook → Visual → Emotional Beat → Payoff`.
-
-Không để concept chỉ tồn tại ở headline mà biến mất trong phần nội dung.
-
-## Narrative Intelligence
-
-`Story Mining → Tension → Question Chain → Micro-Details → Story Loops → Turning Point → Payoff → Emotional Payoff → Meaning`
-
-Story mạnh không nhất thiết cần drama lớn; micro-detail phù hợp có thể tạo emotional weight lớn.
-
-## Retention Intelligence
-
+### Retention
 `Attention → Curiosity → Progress → Emotional Investment → Payoff`
 
-Mỗi segment kiểm tra Purpose, New Information, Emotion, Open Question, Micro-Hook, Payoff và Swipe Risk.
-
-## Hook Intelligence
-
-VKSF tách:
-- **Title:** lý do để chọn xem.
-- **Hook:** lý do để tiếp tục xem.
-
-`Hook = Attention + Value Promise + Curiosity`
-
-Mọi title/hook phải vượt qua:
-`Promise → Content Delivery → Payoff`
+Mỗi segment kiểm tra Purpose, New Information, Progress, Emotion, Open Question, Micro-Hook, Tension, Payoff và Swipe Risk.
 
 ## Scoring
 
+### Channel Fit /100
+Audience30 + Core Problem20 + Worldview20 + Brand Promise15 + Universe10 + Production5.
+
 ### Viral Score /100
-`Hook20 + Curiosity15 + Relatability15 + Emotional Impact15 + Knowledge Value15 + Novelty10 + Shareability10`
+Hook20 + Curiosity15 + Relatability15 + Emotional Impact15 + Knowledge Value15 + Novelty10 + Shareability10.
 
 ### Story Worthiness /60
-`Conflict + Curiosity + Emotional Weight + Specificity + Change + Meaning`
+Conflict + Curiosity + Emotional Weight + Specificity + Change + Meaning.
 
 ### Angle Score /100
-`Relevance20 + Curiosity20 + Relatability15 + Emotional Potential15 + Knowledge/Insight Value15 + Novelty10 + Brand Fit5`
+Relevance20 + Curiosity20 + Relatability15 + Emotional Potential15 + Knowledge/Insight Value15 + Novelty10 + Brand Fit5.
 
 ### Hook Score /100
-`Attention20 + Curiosity15 + Value Clarity15 + Relatability15 + Emotional Pull10 + Novelty10 + Promise Accuracy10 + Voice Fit5`
+Attention20 + Curiosity15 + Value Clarity15 + Relatability15 + Emotional Pull10 + Novelty10 + Promise Accuracy10 + Voice Fit5.
+
+### Retention Score /100
+Hook15 + Curiosity15 + Progress15 + Tension15 + Emotional Rhythm10 + Specificity10 + Micro-Hooks10 + Payoff Design10.
 
 Các score dùng để ưu tiên và kiểm tra, không phải dự đoán chắc chắn lượt xem.
 
-## AI Operating Modes
+## Operating Modes
+
+### CHANNEL
+`DNA → Audience → Core Problem → Promise → Worldview → Boundary → Territories → Channel Fit`
 
 ### UNIVERSE
 `Worldview → Territories → Themes → Gaps → Coverage`
 
 ### BATCH
-`Generate → Score → Deduplicate → Prioritize → Cluster → Queue → Calendar`
+`Channel Fit → Generate → Score → Deduplicate → Prioritize → Cluster → Queue → Calendar`
 
 ### INTELLIGENCE
-`Source → Problem → Worldview → Angle → Communication Concept → Hook → Promise/Payoff`
+`Source → Problem → Worldview → Angle → Concept → Hook → Promise/Payoff`
 
 ### NARRATIVE
 `Mine → Worthiness → Tension → Question Chain → Micro-details → Loops → Turning Point → Payoff → Meaning`
@@ -146,29 +126,43 @@ Các score dùng để ưu tiên và kiểm tra, không phải dự đoán chắ
 ### RETENTION
 `Segment → Micro-Hook → Progress → Tension → Swipe-Risk → Emotional Rhythm → Payoff → Score → Rewrite`
 
-### CONCEPT
-`Decode → Concept Candidates → Perception Shift → Stack → Truth Gate → Propagation → Winner`
-
 ### PRODUCTION
-`Narrative/Knowledge → Insight → Script → Retention → Storyboard → Voice → Packaging → QA`
+`Strategy → Narrative/Knowledge → Insight → Script → Retention → Storyboard → Voice → Packaging → QA`
 
 ### LEARNING
-`Measure → Compare → Patterns → Hypotheses → Experiments → Rules`
+`Measure → Compare → Patterns → Hypotheses → Experiments → Rules → Update Channel DNA/Universe`
 
 ### FULL AUTO
-`Universe → Batch → Intelligence → Concept → Narrative → Retention → Production → Calendar → Publish → Learning → Universe Update`
+`Channel → Universe → Batch → Intelligence → Narrative → Retention → Production → Calendar → Publish → Learning → Channel/Universe Update`
+
+## Chat Orchestrator
+
+`VKSF: {topic}` mặc định chạy full pipeline và **không được nhảy thẳng** vào Angle/Hook/Script.
+
+Pipeline chat:
+`Parse → Channel → Source → Universe → Problem → Worldview → Angle → Concept → Title/Hook → Narrative → Retention → Production → QA → Final/Learning`
+
+Commands:
+- `VKSF /channel`
+- `VKSF /full`
+- `VKSF /batch`
+- `VKSF /story`
+- `VKSF /hook`
+- `VKSF /analyze`
 
 ## Thư mục quan trọng
 
-- `SYSTEM.md` — kiến trúc hệ thống.
-- `prompts/ai-content-os.md` — AI Content Operating System.
+- `SYSTEM.md` — kiến trúc hệ thống v2.0.
+- `prompts/channel-strategy.md` — Channel Strategy Intelligence.
+- `templates/channel-dna.md` — Channel DNA template.
+- `prompts/chat-orchestrator.md` — execution protocol cho ChatGPT.
+- `VKSF-CHAT.md` — cách gọi VKSF trong ChatGPT.
+- `prompts/ai-content-os.md` — AI Content Operating System v2.0.
 - `prompts/content-universe-intelligence.md` — Content Universe Engine.
 - `prompts/story-angle-hook-intelligence.md` — Story + Angle + Hook Intelligence.
-- `prompts/communication-concept-intelligence.md` — Communication Concept Intelligence v1.9.
+- `prompts/communication-concept-intelligence.md` — Communication Concept Intelligence.
 - `prompts/narrative-intelligence.md` — Narrative Intelligence.
 - `prompts/retention-intelligence.md` — Retention Intelligence.
-- `prompts/master-prompt.md` — production pack.
-- `prompts/content-factory.md` — batch factory.
 - `templates/content-universe-map.md` — Universe Map.
 - `templates/narrative-map.md` — Narrative Map.
 - `templates/concept-intelligence-map.md` — Concept Intelligence Map.
@@ -177,17 +171,15 @@ Các score dùng để ưu tiên và kiểm tra, không phải dự đoán chắ
 
 ## Phiên bản
 
-- **v1.0** — system foundation.
-- **v1.1** — AI Content Production System.
-- **v1.2** — Batch Content Factory.
-- **v1.3** — AI Content Operating System.
-- **v1.4** — Personal Storytelling + Content Universe.
-- **v1.5** — Story + Angle + Hook Intelligence.
-- **v1.6** — Content Universe Intelligence.
-- **v1.7** — Narrative Intelligence Engine.
-- **v1.8** — Retention Intelligence Engine.
-- **v1.9** — Communication Concept Intelligence.
-
-## End-to-End
-
-`Experience/Knowledge/Observation → Universe → Territory → Theme → Problem → Worldview → Angle → Communication Concept → Title/Hook → Narrative → Retention → Story/Knowledge → Mirror → Insight → Transformation → Production → Publish → Analytics → Learning → Universe Update`
+- **v2.0** — Channel Strategy Intelligence + Channel DNA + Channel Fit Gate + Channel Boundary + Audience Intent layer + Orchestrator integration.
+- **v1.9.1** — Chat Orchestrator protocol.
+- **v1.9.0** — Communication Concept Intelligence.
+- **v1.8.0** — Retention Intelligence Engine.
+- **v1.7.0** — Narrative Intelligence Engine.
+- **v1.6.0** — Content Universe Intelligence.
+- **v1.5.0** — Story + Angle + Hook Intelligence.
+- **v1.4.0** — Personal Storytelling + Content Universe.
+- **v1.3.0** — AI Content Operating System.
+- **v1.2.0** — Batch Content Factory.
+- **v1.1.0** — AI Content Production System.
+- **v1.0.0** — System foundation.
