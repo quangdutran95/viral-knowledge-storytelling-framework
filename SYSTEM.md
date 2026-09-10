@@ -1,163 +1,104 @@
-# VKSF SYSTEM v1.9
+# VKSF SYSTEM v2.0
 
-## 1. Brand DNA
+## 1. CORE PRINCIPLE
 
-VKSF tạo nội dung tri thức có tính ứng dụng, chiều sâu, tính người và khả năng lan truyền. Giọng điệu: một người thầy từng trải — điềm tĩnh, gần gũi, không giáo điều.
+VKSF không bắt đầu bằng Topic. VKSF bắt đầu bằng **Channel Strategy**.
 
-## 2. Core Architecture
+Một kênh có thể rộng về chủ đề nhưng phải nhất quán về **Audience + Core Problem + Worldview + Promise**.
 
-`Source → Content Universe → Problem → Worldview → Angle → Communication Concept → Title/Hook → Narrative → Retention → Production → Analytics → Learning`
+## 2. CHANNEL STRATEGY LAYER — NEW v2.0
+
+`Channel DNA → Audience → Core Problem → Brand Promise → Worldview → Boundary → Territories`
+
+### Channel DNA
+WHO, WHY, CORE PROBLEM, PROMISE, WORLDVIEW, VOICE, BOUNDARY, PROOF.
+
+### Audience Model
+`Identity → Situation → Friction → Desire → Fear → Existing Belief → Desired Belief`
+
+### Territory Rule
+Bắt đầu với 3–5 territories. Mỗi territory phải có Audience Fit, Problem Fit, Worldview Fit, Promise Fit và đủ topic capacity.
+
+### Content Mix
+`70% Core + 20% Adjacent + 10% Experimental`
+
+### Channel Fit Gate /100
+`Audience30 + Core Problem20 + Worldview20 + Brand Promise15 + Universe10 + Production5`
+
+Decision: 85–100 PRODUCE; 70–84 REFRAME; 55–69 EXPERIMENT; <55 REJECT / MOVE TO OTHER CHANNEL.
+
+Không dùng Viral Score để cứu topic lệch audience.
+
+## 3. CONTENT UNIVERSE
+
+Sau Channel Strategy mới tạo:
+`Universe → Territory → Theme → Problem → Angle → Story → Video`
+
+Kiểm tra audience intent, conflict, cannibalization, gap và saturation.
+
+## 4. CORE ARCHITECTURE
+
+`CHANNEL DNA → AUDIENCE → CORE PROBLEM → WORLDVIEW → CONTENT UNIVERSE → TERRITORY → THEME → PROBLEM → ANGLE → COMMUNICATION CONCEPT → TITLE/HOOK → NARRATIVE → RETENTION → PRODUCTION → ANALYTICS → LEARNING`
 
 Nguồn có thể là Experience, Knowledge, Observation hoặc Hybrid.
 
-## 3. Content Universe Intelligence
+## 5. PROBLEM & WORLDVIEW
 
-`Universe → Territory → Theme → Problem → Angle → Story → Video`
+Chuyển topic thành universal problem và perception shift phù hợp với Channel DNA.
 
-Quản lý worldview, audience tension, brand promise, content gaps, coverage, cannibalization và saturation.
+## 6. ANGLE INTELLIGENCE
 
-## 4. Story + Angle + Hook Intelligence
+Tạo tối thiểu 5 angle khác nhau về perception trước khi chọn winning angle.
 
-### Source Intelligence
-`Experience / Knowledge / Observation / Hybrid`
+## 7. COMMUNICATION CONCEPT INTELLIGENCE
 
-### Problem & Worldview
-Chuyển trải nghiệm riêng thành vấn đề phổ quát mà không xóa tính cá nhân.
+Concept là cơ chế tạo perception, không phải từ khóa.
+`Base Content → Concept → Perception Shift → Stack → Truth Gate → Propagation`
 
-### Angle Intelligence
-Tạo nhiều perception shifts trước khi viết hook.
+Concept được truyền xuống Title, Hook, Narrative, Micro-hook, Visual, Emotional Beat và Payoff.
 
-## 5. COMMUNICATION CONCEPT INTELLIGENCE — NEW v1.9
+## 8. HOOK INTELLIGENCE
 
-Concept là **cơ chế tạo perception**, không phải từ khóa.
-
-### 5.1 Content Decode
-`Base Content → Core Value → Audience Problem → Desired Outcome → Differentiator`
-
-### 5.2 Concept Library
-Concept families có thể gồm:
-- Secret / Reveal
-- Number / Specificity
-- Magnitude / Scale
-- Contrast
-- Contradiction
-- Before / After
-- Hidden Gem
-- Warning / Loss
-- Curiosity
-- FOMO / Scarcity
-- Social Proof
-- Challenge
-- Comparison
-- Transformation
-- Confession
-- Story
-- Myth-busting
-- Unexpected Detail
-- Status / Prestige
-- Time Pressure
-
-Mỗi concept phải có mechanism, use case, perception shift, strength và risk.
-
-### 5.3 Perception Transformation
-`Base Content → Concept → New Perception → Curiosity Question → Promise`
-
-Mục tiêu: làm nội dung đáng chú ý hơn mà không thay đổi sự thật cốt lõi.
-
-### 5.4 Concept Stacking
-Mỗi hook có thể gồm:
-`Primary Concept + 1–2 Secondary Concepts + Optional Support`
-
-Không stack quá nhiều khiến câu chữ gượng hoặc làm mất clarity.
-
-### 5.5 Concept Matrix
-Đánh giá concept theo:
-- Attention
-- Curiosity
-- Value
-- Emotional Pull
-- FOMO
-- Brand Fit
-- Truth Safety
-
-### 5.6 Truth Gate
-Kiểm tra:
-- Factual accuracy
-- Context accuracy
-- Real numbers
-- Real scarcity
-- Honest comparison
-- Promise matches delivery
-
-Nếu không chắc chắn: `[CẦN NGUỒN]` hoặc hạ mức claim.
-
-### 5.7 Propagation
-Concept không dừng ở hook. Nó có thể truyền xuống:
-`Title → Hook → Narrative → Micro-hook → Visual → Emotional Beat → Payoff`
-
-## 6. Hook Intelligence
-
-### Hook Formula
 `Hook = Attention + Value Promise + Curiosity`
 
-### Hook Matrix
-`Angle × Hook Type × Psychological Mechanism`
+Title = reason to choose; Hook = reason to continue.
 
-Hook types:
-- Curiosity
-- Value
-- Contrarian
-- Personal Story
-- Mirror
-- Warning/Loss
+`Promise → Delivery → Payoff`
 
-### Title vs Hook
-- Title = lý do để chọn xem.
-- Hook = lý do để tiếp tục xem.
+## 9. NARRATIVE INTELLIGENCE
 
-### Promise → Payoff
-`Title/Hook Promise → Content Delivery → Payoff`
+`Story Mining → Tension → Question Chain → Micro-Details → Story Loops → Turning Point → Payoff → Meaning`
 
-## 7. Narrative Intelligence
+Story mạnh cần change; không biến sequence thành story bằng cách thêm câu chữ.
 
-Story là quản lý kỳ vọng, câu hỏi, tension, reveal, payoff và meaning.
-
-`Story Mining → Tension → Question Chain → Micro-Details → Story Loops → Turning Point → Payoff → Emotional Payoff → Meaning`
-
-## 8. Retention Intelligence
+## 10. RETENTION INTELLIGENCE
 
 `Attention → Curiosity → Progress → Emotional Investment → Payoff`
 
-Segment phải được kiểm tra Purpose, New Information, Emotion, Open Question, Micro-Hook, Payoff và Swipe Risk.
+Kiểm tra segment: Purpose, New Information, Progress, Emotion, Open Question, Micro-Hook, Tension, Payoff, Swipe Risk.
 
 ### Retention Score /100
-- Hook 15
-- Curiosity 15
-- Progress 15
-- Tension 15
-- Emotional Rhythm 10
-- Specificity 10
-- Micro-Hooks 10
-- Payoff Design 10
+Hook15 + Curiosity15 + Progress15 + Tension15 + Emotional Rhythm10 + Specificity10 + Micro-Hooks10 + Payoff10.
 
-## 9. Story Architect
+## 11. PRODUCTION
 
-### Knowledge-led
-`Hook → Open Loop → Context → Tension → Knowledge → Insight → Transformation → Reflection → Share`
+`Strategy → Concept → Hook → Narrative → Knowledge → Insight → Script → Retention Map → Storyboard → Voice → Packaging → QA`
 
-### Personal Story-led
-`Hook → Real-life Detail → Expectation → Tension → Micro-detail → Turning Point → Payoff → Emotional Reaction → Meaning → Reflection`
+Chỉ sản xuất sau khi Channel Fit và intelligence gates đạt chuẩn.
 
-## 10. AI Operating Modes
+## 12. AI OPERATING MODES
+
+### CHANNEL
+`DNA → Audience → Core Problem → Promise → Worldview → Boundary → Territories → Channel Fit`
 
 ### UNIVERSE
 `Worldview → Territories → Themes → Gaps → Coverage`
 
 ### BATCH
-`Generate → Score → Deduplicate → Prioritize → Cluster → Queue → Calendar`
+`Channel Fit → Generate → Score → Deduplicate → Prioritize → Cluster → Queue → Calendar`
 
 ### INTELLIGENCE
-`Source → Problem → Worldview → Angle → Communication Concept → Hook → Promise/Payoff`
+`Source → Problem → Worldview → Angle → Concept → Hook → Promise/Payoff`
 
 ### NARRATIVE
 `Mine → Worthiness → Tension → Question Chain → Micro-details → Loops → Turning Point → Payoff → Meaning`
@@ -166,102 +107,77 @@ Segment phải được kiểm tra Purpose, New Information, Emotion, Open Quest
 `Segment → Micro-Hook → Progress → Tension → Swipe-Risk → Emotional Rhythm → Payoff → Score → Rewrite`
 
 ### PRODUCTION
-`Narrative/Knowledge → Insight → Script → Retention → Storyboard → Voice → Packaging → QA`
+`Strategy → Narrative/Knowledge → Insight → Script → Retention → Storyboard → Voice → Packaging → QA`
 
 ### LEARNING
-`Measure → Compare → Patterns → Hypotheses → Experiments → Rules`
+`Measure → Compare → Patterns → Hypotheses → Experiments → Rules → Update Channel DNA/Universe`
 
 ### FULL AUTO
-`Universe → Batch → Intelligence → Narrative → Retention → Production → Calendar → Publish → Learning → Universe Update`
+`Channel → Universe → Batch → Intelligence → Narrative → Retention → Production → Calendar → Publish → Learning → Channel/Universe Update`
 
-## 11. Production Package
+## 13. KNOWLEDGE STANDARD
 
-`Strategy → Concept → Hook → Narrative → Knowledge → Insight → Script → Retention Map → Storyboard → Voice → Packaging → Quality Gate → Publish → Analytics → Learning`
+Tách rõ Fact, Explanation, Example và Application. Không bịa nguồn, số liệu, nghiên cứu, chuyên gia hoặc trích dẫn.
 
-## 12. Knowledge Standard
-
-Tách rõ:
-- Fact
-- Explanation
-- Example
-- Application
-
-Không bịa nguồn, số liệu, nghiên cứu, chuyên gia hoặc trích dẫn.
-
-## 13. Whiteboard System
+## 14. WHITEBOARD SYSTEM
 
 - Nền trắng.
 - Marker/doodle nét tay.
 - Draw-on animation.
 - Một ý chính mỗi cảnh.
-- Nhân vật nhất quán.
 - Text ngắn, mobile-first.
-- Concept quan trọng phải có visual tương ứng khi cần.
+- Visual phải hỗ trợ concept và narrative.
 
-## 14. Analytics & Learning
+## 15. ANALYTICS & LEARNING
 
-Theo dõi:
-`Views, 3s Retention, Average Watch Time, Completion Rate, Likes, Comments, Saves, Shares, Follows, Share Rate, Save Rate`
+Theo dõi Views, 3s Retention, Average Watch Time, Completion Rate, Likes, Comments, Saves, Shares, Follows, Share Rate, Save Rate.
 
-Phân biệt:
-`Observation → Hypothesis → Experiment → Result`
+Learning cập nhật Audience intent, Winning territories, Problems, Angles, Concepts, Hooks, Story structures và Retention patterns.
 
-Learning có thể cập nhật:
-- Winning concepts
-- Winning angles
-- Winning hooks
-- Winning story structures
-- Winning territories
+## 16. QUALITY GATE
 
-## 15. Quality Gate
+Kiểm tra Channel Fit, Audience consistency, Hook 3 giây, Value Promise, Concept perception shift, Truth Gate, Narrative tension, Retention progress, Payoff, Visual fit, No fake drama, No deceptive clickbait, No audience cannibalization.
 
-Kiểm tra:
-- Hook 3 giây.
-- Attention đủ mạnh nhưng không shock rỗng.
-- Value Promise rõ.
-- Concept tạo perception shift thật.
-- Truth Gate đạt.
-- Open question có payoff.
-- Story có tension/detail.
-- Retention có progress.
-- Payoff trả đúng promise.
-- Visual hỗ trợ concept.
-- Không fake drama.
-- Không deceptive clickbait.
-- Không trùng/cannibalize library.
+Nếu Quality hoặc Retention dưới ngưỡng: tự sửa một vòng và chấm lại.
 
-Nếu Quality hoặc Retention Score dưới ngưỡng: tự sửa một vòng và chấm lại.
-
-## 16. End-to-End
+## 17. END-TO-END
 
 ```text
-EXPERIENCE / KNOWLEDGE / OBSERVATION
-                  ↓
-          CONTENT UNIVERSE
-                  ↓
-       TERRITORY / THEME / GAP
-                  ↓
-              IDEA BANK
-                  ↓
-       SOURCE + WORLDVIEW MINING
-                  ↓
-            ANGLE INTELLIGENCE
-                  ↓
-     COMMUNICATION CONCEPT INTELLIGENCE
-                  ↓
-            TITLE + HOOK
-                  ↓
-         NARRATIVE INTELLIGENCE
-                  ↓
-          RETENTION INTELLIGENCE
-                  ↓
-            PRODUCTION PACK
-                  ↓
-          PUBLISH + ANALYTICS
-                  ↓
-             LEARNING LOOP
-                  ↓
-        UPDATE CONTENT UNIVERSE
-                  ↓
-             NEXT CONTENT
+CHANNEL DNA
+    ↓
+AUDIENCE
+    ↓
+CORE PROBLEM
+    ↓
+WORLDVIEW / PROMISE
+    ↓
+CONTENT UNIVERSE
+    ↓
+3–5 TERRITORIES
+    ↓
+THEMES / PROBLEMS
+    ↓
+ANGLES
+    ↓
+COMMUNICATION CONCEPT
+    ↓
+TITLE + HOOK
+    ↓
+NARRATIVE
+    ↓
+RETENTION
+    ↓
+PRODUCTION PACK
+    ↓
+PUBLISH + ANALYTICS
+    ↓
+LEARNING
+    ↓
+UPDATE CHANNEL DNA / UNIVERSE
+    ↓
+NEXT CONTENT
 ```
+
+## CORE FORMULA
+
+**1 Audience → 1 Core Problem → 1 Worldview → 3–5 Territories → hundreds of Topics.**
