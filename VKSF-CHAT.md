@@ -1,8 +1,8 @@
-# VKSF trong ChatGPT
+# VKSF TRONG CHATGPT v2.0
 
 ## Mục đích
 
-Tài liệu này quy định cách gọi VKSF trong ChatGPT và bảo đảm hệ thống chạy theo pipeline thay vì nhảy thẳng vào Angle/Hook/Script.
+Tài liệu này quy định cách gọi VKSF trong ChatGPT và bảo đảm **Channel Strategy được kiểm tra trước Content Universe và production**.
 
 ## Default trigger
 
@@ -19,40 +19,50 @@ Chủ đề: {topic}
 
 ## Default behavior
 
-Khi nhận trigger mặc định, phải chạy:
+Khi nhận trigger mặc định, chạy:
 
 ```text
 0 Parse
-→ 1 Source
-→ 2 Content Universe
-→ 3 Problem
-→ 4 Worldview
-→ 5 Angle
-→ 6 Communication Concept
-→ 7 Title/Hook
-→ 8 Narrative
-→ 9 Retention
-→ 10 Production
-→ 11 Quality Gate
-→ 12 Final
+→ 1 Channel Strategy
+→ 2 Source
+→ 3 Content Universe
+→ 4 Problem
+→ 5 Worldview
+→ 6 Angle
+→ 7 Communication Concept
+→ 8 Title/Hook
+→ 9 Narrative
+→ 10 Retention
+→ 11 Production
+→ 12 Quality Gate
+→ 13 Final/Learning
 ```
 
-Không được bỏ qua phase. Nếu phase không phù hợp: ghi `SKIP — not applicable`.
+Không được bỏ qua Channel Fit Gate. Topic viral nhưng lệch audience phải được `REFRAME`, `MOVE TO OTHER TERRITORY` hoặc `MOVE TO OTHER CHANNEL`.
 
 ## Chat display
 
-Trong quá trình chạy, chỉ hiển thị trạng thái ngắn, ví dụ:
+Chỉ hiển thị trạng thái phase ngắn, ví dụ:
 
 ```text
-VKSF [1/12] Source ✓
-VKSF [2/12] Universe ✓
-VKSF [3/12] Problem ✓
+VKSF [1/14] Parse ✓
+VKSF [2/14] Channel Strategy ✓
+VKSF [3/14] Source ✓
 ...
+VKSF [14/14] Final ✓
 ```
 
 Không hiển thị chain-of-thought nội bộ.
 
 ## Commands
+
+### Channel
+```text
+VKSF /channel
+```
+
+Dùng để xây hoặc audit:
+`DNA → Audience → Core Problem → Promise → Worldview → Boundary → 3–5 Territories → 70/20/10 → Channel Fit`
 
 ### Full
 ```text
@@ -69,6 +79,8 @@ VKSF /batch
 Lĩnh vực: Phát triển bản thân
 ```
 
+Batch vẫn phải chạy Channel Fit trước ranking.
+
 ### Story
 ```text
 VKSF /story
@@ -81,31 +93,57 @@ VKSF /hook
 Nội dung: ...
 ```
 
+Hook mode vẫn kiểm tra Channel Strategy → Problem → Worldview → Angle → Concept trước.
+
 ### Analyze
 ```text
 VKSF /analyze
 Nội dung/video: ...
 ```
 
-## Important
+Phân tích layer yếu nhất, bao gồm cả Channel Fit và Audience Intent.
 
-GitHub là source-of-truth để lưu phiên bản framework. Trong ChatGPT, trigger `VKSF` phải được diễn giải theo Orchestrator này và sử dụng các engine tương ứng.
+## Core rule
 
-Nếu user yêu cầu một output duy nhất, chỉ chạy phase cần thiết theo mode tương ứng; không giả định `/hook` hay `/script` là full pipeline.
+**Đừng hỏi: “Topic này có viral không?” trước. Hỏi: “Topic này có đúng người xem của kênh không?”**
 
-## Example
+Thứ tự ưu tiên:
+
+`Channel Fit → Audience Problem → Worldview Fit → Viral Potential → Production`
+
+## Architecture
 
 ```text
-User: VKSF: Trì hoãn
-
-Assistant should begin:
-VKSF [1/12] Parse
-Mode: FULL
-Topic: Trì hoãn
-
-VKSF [2/12] Source
-Source: KNOWLEDGE / HYBRID
-
-VKSF [3/12] Universe
-...
+CHANNEL DNA
+   ↓
+AUDIENCE
+   ↓
+CORE PROBLEM
+   ↓
+WORLDVIEW
+   ↓
+CONTENT UNIVERSE
+   ↓
+TERRITORIES
+   ↓
+THEMES / PROBLEMS
+   ↓
+ANGLES
+   ↓
+CONCEPTS
+   ↓
+HOOKS
+   ↓
+NARRATIVE
+   ↓
+RETENTION
+   ↓
+PRODUCTION
+   ↓
+ANALYTICS
+   ↓
+LEARNING
+   ↺ update CHANNEL DNA / UNIVERSE
 ```
+
+GitHub là source-of-truth cho framework. ChatGPT phải sử dụng Orchestrator + AI-COS + Channel Strategy Intelligence trước các engine chuyên biệt.
