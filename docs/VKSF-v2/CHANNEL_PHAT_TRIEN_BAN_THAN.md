@@ -296,14 +296,314 @@ Một cluster tốt phải:
 4. Không kéo kênh sang một audience khác.
 5. Có thể tiếp tục đào sâu bằng nhiều angle.
 
-Nếu một chủ đề không vượt qua 5 điều kiện trên, không mặc định đưa vào kênh.
+Nếu không đạt các điều kiện trên, không tự động đưa cluster vào hệ thống.
 
 ---
 
-# TRẠNG THÁI
+# BƯỚC 07 — THEME ENGINE
 
-Đã hoàn thành: Channel DNA → Positioning → Content Architecture → Content Universe → Content Priority → Content Strategy → Problem Map cấp 2.
+## 07.1 — THEME LÀ GÌ?
 
-BƯỚC TIẾP THEO: **07 — THEME ENGINE**.
+Theme không phải là một topic đơn lẻ và cũng chưa phải là một idea.
 
-Ở bước 07, chọn từng Problem Cluster và xây các Theme có tính lặp, tính series và tính chiến lược. Chưa nhảy thẳng sang Script.
+Theme là một “trục nội dung lặp lại” dùng để nhìn một Problem Cluster theo một cách nhất quán. Một Theme tốt phải có khả năng sinh ra nhiều Problem và Idea khác nhau mà vẫn giữ cùng audience intent.
+
+Công thức:
+
+**PROBLEM CLUSTER → THEME → PROBLEM → IDEA**
+
+Ví dụ:
+
+**TRÌ HOÃN → “Trì hoãn thực chất là cơ chế né tránh” → “Tại sao tôi càng quan trọng càng không làm?” → IDEA cụ thể**
+
+Theme vì vậy là tầng trung gian cực kỳ quan trọng: nó giúp VKSF không rơi từ Cluster xuống ngay một tiêu đề viral ngẫu nhiên.
+
+## 07.2 — TIÊU CHUẨN MỘT THEME TỐT
+
+Theme phải đáp ứng 6 tiêu chí:
+
+1. **Core Fit** — gắn trực tiếp với Core Problem “biết nhưng không thay đổi”.
+2. **Audience Fit** — đúng với nỗi đau và câu hỏi của người 22–40 tuổi.
+3. **Serializable** — có thể tạo thành nhiều video, không cạn sau 1–2 ý tưởng.
+4. **Worldview Fit** — thể hiện nguyên tắc “hiểu cơ chế trước, thay đổi sau”.
+5. **Distinctive** — có góc nhìn riêng, tránh biến thành danh sách self-help chung chung.
+6. **Expandable** — có thể đào tiếp sang nhiều Problem và Angle nhưng không phá Channel Boundary.
+
+## 07.3 — THEME ENGINE: THAY ĐỔI HÀNH VI
+
+Đây là Territory ưu tiên cao nhất vì chiếm 30% portfolio và giải quyết trực tiếp Core Problem.
+
+### CLUSTER A — TRÌ HOÃN
+
+**Theme A1 — Trì hoãn không đơn giản là lười**
+- Trọng tâm: tìm cơ chế tâm lý phía sau việc không hành động.
+- Worldview: hành vi trì hoãn thường có nguyên nhân, không chỉ là thiếu ý chí.
+
+**Theme A2 — Càng quan trọng, càng khó bắt đầu**
+- Trọng tâm: áp lực, sợ thất bại, kỳ vọng và kích thước cảm nhận của nhiệm vụ.
+
+**Theme A3 — Những cái bẫy khiến bạn trì hoãn mà không nhận ra**
+- Trọng tâm: lập kế hoạch quá mức, nghiên cứu quá mức, tối ưu hóa, chờ thời điểm hoàn hảo.
+
+**Theme A4 — Động lực không phải lời giải cho trì hoãn**
+- Trọng tâm: sự phụ thuộc vào cảm hứng và phần thưởng tức thời.
+
+**Theme A5 — Trì hoãn là cách não né cảm giác khó chịu**
+- Trọng tâm: discomfort avoidance, cảm xúc và phần thưởng ngắn hạn.
+
+**Theme A6 — Từ biết phải làm sang thực sự bắt đầu**
+- Trọng tâm: giảm ma sát, chia nhỏ hành động, thiết kế bước đầu tiên.
+
+### CLUSTER B — KỶ LUẬT
+
+**Theme B1 — Kỷ luật không phải là ép bản thân**
+- Trọng tâm: phân biệt kỷ luật bền vững với tự ép buộc.
+
+**Theme B2 — Vì sao bạn luôn bắt đầu mạnh rồi bỏ cuộc?**
+- Trọng tâm: khoảng cách giữa ý định và khả năng duy trì.
+
+**Theme B3 — Đừng xây kỷ luật bằng ý chí**
+- Trọng tâm: hệ thống, môi trường, ma sát và thiết kế hành vi.
+
+**Theme B4 — Kỷ luật khi không có động lực**
+- Trọng tâm: hành động không phụ thuộc trạng thái cảm xúc.
+
+**Theme B5 — Trở thành người có kỷ luật thay vì chỉ làm những việc kỷ luật**
+- Trọng tâm: identity và hành vi lặp lại.
+
+### CLUSTER C — THÓI QUEN
+
+**Theme C1 — Môi trường đang quyết định hành vi của bạn**
+- Trọng tâm: cue, accessibility và thiết kế môi trường.
+
+**Theme C2 — Ma sát nhỏ tạo ra thay đổi lớn**
+- Trọng tâm: làm hành vi tốt dễ hơn và hành vi xấu khó hơn.
+
+**Theme C3 — Xây thói quen dễ đến mức khó từ chối**
+- Trọng tâm: giảm độ khó khởi đầu và tạo vòng lặp hành vi.
+
+**Theme C4 — Muốn bỏ thói quen xấu, đừng chỉ dựa vào quyết tâm**
+- Trọng tâm: thay đổi cue, reward và môi trường thay vì chỉ chống lại bản thân.
+
+**Theme C5 — Thói quen thất bại vì bạn thiết kế sai hệ thống**
+- Trọng tâm: mục tiêu không đủ; hệ thống mới quyết định khả năng duy trì.
+
+### CLUSTER D — TẬP TRUNG & XAO NHÃNG
+
+**Theme D1 — Điện thoại đang huấn luyện cách não bạn chú ý**
+- Trọng tâm: phần thưởng nhanh, kích thích liên tục và thói quen kiểm tra.
+
+**Theme D2 — Bạn không mất tập trung, bạn bị kéo sự chú ý đi**
+- Trọng tâm: external triggers, thông báo và môi trường.
+
+**Theme D3 — Tập trung không phải cố lâu hơn**
+- Trọng tâm: thiết kế điều kiện để giảm chuyển đổi chú ý.
+
+**Theme D4 — Chi phí của việc liên tục chuyển đổi**
+- Trọng tâm: context switching và chất lượng công việc.
+
+**Theme D5 — Muốn tập trung, hãy thiết kế lại môi trường**
+- Trọng tâm: loại bỏ cue gây xao nhãng trước khi đòi hỏi ý chí.
+
+### CLUSTER E — NĂNG SUẤT
+
+**Theme E1 — Bận không có nghĩa là hiệu quả**
+- Trọng tâm: activity vs meaningful output.
+
+**Theme E2 — To-do list có thể tạo ảo giác tiến bộ**
+- Trọng tâm: cảm giác hoàn thành việc nhỏ nhưng né việc quan trọng.
+
+**Theme E3 — Làm ít hơn nhưng đúng hơn**
+- Trọng tâm: ưu tiên, trade-off và công việc có tác động cao.
+
+**Theme E4 — Quản lý năng lượng thay vì chỉ quản lý thời gian**
+- Trọng tâm: trạng thái con người ảnh hưởng chất lượng hành động.
+
+**Theme E5 — Năng suất thất bại khi bạn tối ưu sai thứ**
+- Trọng tâm: tối ưu công cụ thay vì giải quyết bottleneck thật.
+
+---
+
+# 07.4 — THEME ENGINE: HIỂU TÂM TRÍ
+
+### OVERTHINKING
+- **T1.1 — Nghĩ nhiều không đồng nghĩa với nghĩ đúng**
+- **T1.2 — Khi phân tích trở thành một cách trì hoãn**
+- **T1.3 — Tại sao não luôn muốn chắc chắn trước khi hành động?**
+- **T1.4 — Overthinking và nhu cầu kiểm soát**
+
+### ĐỘNG LỰC & PHẦN THƯỞNG
+- **T2.1 — Tại sao động lực đến rồi biến mất?**
+- **T2.2 — Não thích phần thưởng ngay hơn lợi ích tương lai**
+- **T2.3 — Khi bạn phụ thuộc cảm xúc để hành động**
+- **T2.4 — Thiết kế phần thưởng thay vì chờ động lực**
+
+### CẢM XÚC
+- **T3.1 — Bạn không lười, bạn đang né một cảm xúc khó chịu**
+- **T3.2 — Cảm xúc đang điều khiển hành vi như thế nào?**
+- **T3.3 — Vì sao thất bại khiến nhiều người muốn bỏ cuộc?**
+- **T3.4 — Tự phán xét khiến thay đổi khó hơn**
+
+### COGNITIVE BIAS
+- **T4.1 — Những thiên kiến khiến bạn tự thuyết phục chính mình**
+- **T4.2 — Não bảo vệ niềm tin cũ như thế nào?**
+- **T4.3 — Vì sao bạn đánh giá hiện tại cao hơn tương lai?**
+- **T4.4 — Khi cảm giác đúng không có nghĩa là bạn đúng**
+
+### CƠ CHẾ NÉ TRÁNH
+- **T5.1 — Não luôn tìm cách giúp bạn tránh khó chịu**
+- **T5.2 — Né thất bại bằng cách không bắt đầu**
+- **T5.3 — Né bị đánh giá bằng cách không dám thể hiện**
+- **T5.4 — Phân tích, chuẩn bị và học thêm đôi khi chỉ là né hành động**
+
+---
+
+# 07.5 — THEME ENGINE: HIỂU MÌNH
+
+### TỰ NHẬN THỨC
+- **T6.1 — Bạn không thể thay đổi điều mình không nhìn thấy ở chính mình**
+- **T6.2 — Những pattern bạn lặp lại mà không nhận ra**
+- **T6.3 — Hình ảnh bạn nghĩ về mình có thể không phải con người thật**
+- **T6.4 — Không biết mình muốn gì: vấn đề nằm ở đâu?**
+
+### TỰ TI & SO SÁNH
+- **T7.1 — Vì sao càng so sánh càng thấy mình kém?**
+- **T7.2 — Khi thành tích trở thành thước đo giá trị bản thân**
+- **T7.3 — Sự công nhận của người khác đang điều khiển bạn thế nào?**
+- **T7.4 — Tự tin không phải là nghĩ mình hơn người khác**
+
+### NIỀM TIN GIỚI HẠN
+- **T8.1 — Những câu nói bạn tin về bản thân đang giới hạn bạn**
+- **T8.2 — “Tôi không đủ giỏi” được hình thành như thế nào?**
+- **T8.3 — Chủ nghĩa hoàn hảo và cái giá của việc luôn phải tốt**
+- **T8.4 — Sợ bắt đầu lại vì bạn đã gắn mình với phiên bản cũ**
+
+### IDENTITY
+- **T9.1 — Bạn đang trở thành người như thế nào qua những việc mình lặp lại?**
+- **T9.2 — Identity quyết định hành vi ra sao?**
+- **T9.3 — Khi hình ảnh bản thân trở thành chiếc lồng**
+- **T9.4 — Muốn thay đổi hành vi, đôi khi phải thay đổi cách bạn nhìn mình**
+
+---
+
+# 07.6 — THEME ENGINE: NÂNG CẤP NĂNG LỰC
+
+### TƯ DUY
+- **T10.1 — Nghĩ sâu hơn thay vì nghĩ nhiều hơn**
+- **T10.2 — Những câu hỏi tốt thay đổi chất lượng suy nghĩ**
+- **T10.3 — Tư duy dài hạn khi não chỉ thích phần thưởng hiện tại**
+- **T10.4 — First principles: quay về vấn đề gốc**
+
+### RA QUYẾT ĐỊNH
+- **T11.1 — Tại sao càng nhiều lựa chọn càng khó quyết định?**
+- **T11.2 — Ra quyết định khi không thể chắc chắn**
+- **T11.3 — Chi phí cơ hội của những lựa chọn bạn không nhìn thấy**
+- **T11.4 — Đừng tìm quyết định hoàn hảo, hãy tìm quyết định đủ tốt**
+
+### HỌC TẬP & TỰ HỌC
+- **T12.1 — Học nhiều nhưng không thay đổi vì bạn đang học sai cách**
+- **T12.2 — Tại sao đọc xong lại quên?**
+- **T12.3 — Học chủ động thay vì chỉ tiếp nhận thông tin**
+- **T12.4 — Biến kiến thức thành năng lực thực tế**
+
+### GIẢI QUYẾT VẤN ĐỀ
+- **T13.1 — Bạn đang giải quyết vấn đề thật hay chỉ xử lý triệu chứng?**
+- **T13.2 — Tìm nguyên nhân gốc trước khi tìm giải pháp**
+- **T13.3 — Tư duy hệ thống để nhìn thấy những thứ đang liên kết**
+- **T13.4 — Thử nghiệm nhỏ thay vì chờ một giải pháp hoàn hảo**
+
+---
+
+# 07.7 — THEME ENGINE: SỐNG TỐT HƠN
+
+### GIÁ TRỊ SỐNG
+- **T14.1 — Thành công không có nghĩa giống nhau với mọi người**
+- **T14.2 — Bạn đang cố gắng vì điều mình muốn hay vì người khác công nhận?**
+- **T14.3 — Biết đủ là năng lực, không phải sự từ bỏ**
+- **T14.4 — Giá trị bản thân không nên phụ thuộc vào thành tích**
+
+### TRƯỞNG THÀNH
+- **T15.1 — Trưởng thành là biết chịu trách nhiệm với lựa chọn của mình**
+- **T15.2 — Có những giới hạn cần chấp nhận thay vì cố chiến thắng**
+- **T15.3 — Buông bỏ kỳ vọng không có nghĩa là bỏ cuộc**
+- **T15.4 — Trưởng thành không đồng nghĩa với chai lì cảm xúc**
+
+### CÁC MỐI QUAN HỆ
+- **T16.1 — Ranh giới cá nhân không phải ích kỷ**
+- **T16.2 — Tại sao bạn luôn muốn làm hài lòng người khác?**
+- **T16.3 — Chọn người đồng hành cũng là một quyết định phát triển bản thân**
+- **T16.4 — Cô đơn và khả năng ở một mình**
+
+### THÀNH CÔNG, THẤT BẠI & Ý NGHĨA
+- **T17.1 — Sợ thất bại thực chất có thể là sợ mất hình ảnh về mình**
+- **T17.2 — Thành công nhưng vẫn thấy trống rỗng**
+- **T17.3 — Tốc độ không quan trọng nếu bạn đang đi sai hướng**
+- **T17.4 — Một đời đáng sống không chỉ được đo bằng thành tích**
+
+---
+
+# 07.8 — THEME PRIORITY
+
+Không phải mọi Theme có giá trị ngang nhau. VKSF ưu tiên theo 3 tầng:
+
+### CORE THEMES — dùng để tăng reach và xây nhận diện
+- Trì hoãn không đơn giản là lười.
+- Càng quan trọng càng khó bắt đầu.
+- Động lực không phải lời giải.
+- Kỷ luật không phải ép bản thân.
+- Môi trường quyết định hành vi.
+- Overthinking là một dạng né hành động.
+- Não thích phần thưởng hiện tại hơn lợi ích tương lai.
+- Bạn đang trở thành người như thế nào qua những gì mình lặp lại?
+
+### SUPPORT THEMES — dùng để mở rộng nội dung
+- Tập trung.
+- Thói quen.
+- Năng suất.
+- Tự ti & so sánh.
+- Tự nhận thức.
+- Học tập.
+- Tư duy.
+- Ra quyết định.
+
+### DEPTH THEMES — dùng để xây worldview và lòng trung thành
+- Giá trị bản thân.
+- Trưởng thành.
+- Thành công và ý nghĩa.
+- Sống đủ.
+- Ranh giới.
+- Thành công nhưng trống rỗng.
+
+---
+
+# 07.9 — THEME FIT GATE
+
+Trước khi một Theme được chuyển sang BƯỚC 08 — PROBLEM, phải kiểm tra:
+
+**T1 — Audience Fit:** Người xem lõi có thực sự gặp vấn đề này không?
+
+**T2 — Core Problem Fit:** Theme có liên quan đến khoảng cách “biết nhưng không thay đổi” không?
+
+**T3 — Worldview Fit:** Theme có thể triển khai theo hướng “hiểu cơ chế trước, thay đổi sau” không?
+
+**T4 — Serial Potential:** Theme có thể sinh ít nhất 5–10 Problem khác nhau không?
+
+**T5 — Boundary Fit:** Theme có giữ đúng lãnh thổ phát triển bản thân không?
+
+**T6 — Differentiation:** Theme có góc nhìn riêng hay chỉ là self-help chung chung?
+
+Nếu không đạt T2 hoặc T5 → loại.
+Nếu đạt nhưng yếu T4 hoặc T6 → giữ ở mức thử nghiệm.
+Nếu đạt tốt cả 6 → đưa vào Theme Library chính thức.
+
+---
+
+# TRẠNG THÁI VKSF
+
+Đã hoàn thành:
+
+CHANNEL DNA → POSITIONING → CONTENT ARCHITECTURE → CONTENT UNIVERSE → CONTENT PRIORITY → CONTENT STRATEGY → CONTENT CLUSTER → THEME ENGINE.
+
+**BƯỚC TIẾP THEO: 08 — PROBLEM ENGINE.**
+
+Nguyên tắc bắt buộc: chưa chuyển sang IDEA, ANGLE, TITLE, HOOK hoặc SCRIPT cho đến khi Problem được xác định và vượt Problem Fit Gate.
