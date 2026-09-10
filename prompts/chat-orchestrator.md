@@ -1,6 +1,6 @@
-# VKSF CHAT ORCHESTRATOR v1.0
+# VKSF CHAT ORCHESTRATOR v2.0
 
-Mục đích: bắt buộc VKSF chạy theo pipeline trong ChatGPT thay vì nhảy thẳng vào Angle/Hook/Script.
+Mục đích: bắt buộc VKSF chạy theo pipeline **chiến lược kênh → content universe → production**, thay vì chỉ tối ưu một video riêng lẻ.
 
 ## TRIGGER
 
@@ -10,151 +10,123 @@ Các câu gọi như:
 - `VKSF /batch {pillar}`
 - `VKSF /story {experience}`
 - `VKSF /analyze {content}`
+- `VKSF /channel`
 
-được xử lý bởi Orchestrator trước khi gọi engine chuyên biệt.
+dược xử lý bởi Orchestrator trước khi gọi engine chuyên biệt.
 
 ## MASTER RULE
 
-**Không được bỏ qua phase.** Nếu người dùng không yêu cầu một phase cụ thể, chạy theo thứ tự mặc định.
+**Không được bỏ qua phase bắt buộc.** Nếu phase không áp dụng, ghi `SKIP — not applicable` và lý do ngắn gọn.
 
-Nếu một phase không áp dụng, phải ghi `SKIP — not applicable` và lý do ngắn gọn.
+Quan trọng: **Topic không phải điểm bắt đầu của chiến lược. Channel DNA là lớp kiểm soát phía trên Topic.**
 
 Không được gọi trực tiếp Angle, Hook hoặc Script chỉ vì topic đã rõ.
 
 ## DEFAULT EXECUTION ORDER
 
 ### PHASE 0 — COMMAND PARSE
-Xác định:
-- mode
-- topic/source
-- audience
-- platform
-- duration
-- goal
-- constraints
+Xác định mode, topic/source, audience, platform, duration, goal và constraints.
 
-### PHASE 1 — SOURCE & CONTEXT
-Phân loại:
-- EXPERIENCE
-- KNOWLEDGE
-- OBSERVATION
-- HYBRID
+### PHASE 1 — CHANNEL STRATEGY GATE
+Xác định hoặc nạp:
+- Channel DNA
+- Audience
+- Core Problem
+- Brand Promise
+- Worldview
+- Boundary
+- Territories
 
-Làm rõ chất liệu và context trước khi sáng tạo.
+Nếu chưa có Channel DNA, tạo `PROVISIONAL CHANNEL DNA` dựa trên context hiện có.
 
-### PHASE 2 — CONTENT UNIVERSE
-Xác định:
-- Core Worldview
-- Territory
-- Theme
-- Content Gap
-- Existing-content conflict
+Chấm **Channel Fit /100**:
+`Audience30 + Core Problem20 + Worldview20 + Brand Promise15 + Universe10 + Production5`
 
-Nếu chưa có Universe, tạo provisional universe.
+Quyết định:
+- 85–100 → PRODUCE
+- 70–84 → REFRAME
+- 55–69 → EXPERIMENT
+- <55 → REJECT / MOVE TO OTHER CHANNEL
 
-### PHASE 3 — PROBLEM MINING
-Xác định:
-- universal problem
-- audience tension
-- emotional tension
-- hidden truth
-- desired change
+**Viral Score không được cứu một topic có Channel Fit thấp.**
 
-### PHASE 4 — WORLDVIEW / REFRAME
-Trả lời:
-- creator believes what?
-- what changed?
-- what does audience commonly believe?
-- what is the perception shift?
+### PHASE 2 — SOURCE & CONTEXT
+Phân loại EXPERIENCE / KNOWLEDGE / OBSERVATION / HYBRID.
 
-### PHASE 5 — ANGLE INTELLIGENCE
-Tạo tối thiểu 5 angle. Chấm Angle Score. Chọn Winning Angle.
+### PHASE 3 — CONTENT UNIVERSE
+Map topic vào:
+`Universe → Territory → Theme → Problem`
 
-### PHASE 6 — COMMUNICATION CONCEPT
-Tìm concept phù hợp từ Concept Library.
-Tạo 1–3 concept stacks.
-Kiểm tra concept có thực sự làm perception thay đổi không.
+Kiểm tra gap, conflict, cannibalization và saturation.
 
-### PHASE 7 — TITLE & HOOK INTELLIGENCE
-Phân biệt:
-- Title = reason to choose
-- Hook = reason to continue
+### PHASE 4 — PROBLEM MINING
+Xác định universal problem, audience tension, emotional tension, hidden truth, desired change.
 
-Tạo Hook Matrix. Chấm Hook Score.
-Kiểm tra Attention + Value Promise + Curiosity.
+### PHASE 5 — WORLDVIEW / REFRAME
+Xác định creator belief, common belief, perception shift và core reframe.
 
-### PHASE 8 — NARRATIVE INTELLIGENCE
-Chạy:
-`Story Mining → Story Worthiness → Tension → Question Chain → Micro-detail → Story Loop → Turning Point → Payoff → Meaning`
+### PHASE 6 — ANGLE INTELLIGENCE
+Tạo tối thiểu 5 angle khác nhau về perception. Chấm Angle Score và chọn Winning Angle.
 
-### PHASE 9 — RETENTION INTELLIGENCE
-Chia beat/segment và kiểm tra:
-- curiosity
-- progress
-- tension
-- micro-hook
-- swipe risk
-- emotional rhythm
-- micro/mid/final payoff
+### PHASE 7 — COMMUNICATION CONCEPT
+Tìm concept, tạo 1–3 concept stacks, kiểm tra perception shift và Truth Gate.
 
-Nếu yếu, rewrite trước khi sang production.
+### PHASE 8 — TITLE & HOOK INTELLIGENCE
+Tách Title và Hook. Tạo Hook Matrix, chấm Hook Score, kiểm tra `Attention + Value Promise + Curiosity` và Promise/Payoff.
 
-### PHASE 10 — PRODUCTION
-Chỉ sau khi Phase 1–9 đạt chuẩn mới tạo:
-- Full Script
-- Whiteboard Storyboard
-- Voice Direction
-- Packaging
+### PHASE 9 — NARRATIVE INTELLIGENCE
+Chạy Story Mining → Tension → Question Chain → Micro-detail → Story Loop → Turning Point → Payoff → Meaning.
 
-### PHASE 11 — QUALITY GATE
-Bắt buộc chấm:
-- Viral Score
-- Angle Score
-- Hook Score
-- Story Worthiness khi có story
-- Retention Score
-- Quality Gate
+### PHASE 10 — RETENTION INTELLIGENCE
+Kiểm tra segment-level: curiosity, progress, tension, micro-hook, swipe risk, emotional rhythm, payoff.
 
-Nếu dưới ngưỡng, tự sửa một vòng rồi chấm lại.
+### PHASE 11 — PRODUCTION
+Chỉ sau Phase 1–10 đạt chuẩn mới tạo Full Script, Whiteboard Storyboard, Voice Direction, Packaging.
 
-### PHASE 12 — FINAL OUTPUT
-Xuất theo đúng thứ tự phase.
-Không được đảo Phase 10 lên trước Phase 2–9.
+### PHASE 12 — QUALITY GATE
+Chấm Channel Fit, Viral Score, Angle Score, Hook Score, Story Worthiness khi có story, Retention Score, Overall Quality. Nếu dưới ngưỡng, tự sửa một vòng.
+
+### PHASE 13 — FINAL + LEARNING TAG
+Xuất package và gắn tag để learning có thể cập nhật Channel DNA / Universe / Territory / Concept / Hook.
 
 ## USER-FACING PROGRESS HEADER
 
-Mặc định hiển thị tiến trình ngắn:
+`VKSF [1/14] Parse → [2/14] Channel → [3/14] Source → ... → [14/14] Final`
 
-`VKSF [1/12] Parse → [2/12] Source → [3/12] Universe → ... → [12/12] Final`
+Chỉ hiển thị phase và kết quả tóm tắt; không hiển thị chain-of-thought.
 
-Nếu người dùng yêu cầu `VKSF /full`, vẫn phải chạy đủ phase nhưng có thể trình bày gọn.
+## MODES
 
-## MODE-SPECIFIC OVERRIDES
+### `/channel`
+Chạy Channel Strategy Intelligence:
+`DNA → Audience → Core Problem → Promise → Worldview → Boundary → 3–5 Territories → 70/20/10 → Channel Fit`
 
 ### `/batch`
-Phase 2 → 3 → 5 → 6 → 7 cho từng ý tưởng, sau đó ranking và calendar.
+Channel Gate → Universe → Problem → Angle → Concept → Hook cho batch; sau đó ranking, clustering, queue, calendar.
 
 ### `/story`
-Phase 1 → 3 → 4 → 8 → 9 → 10 → 11 → 12.
-Bỏ qua title/hook chỉ nếu người dùng chỉ yêu cầu phân tích chất liệu.
+Channel Gate → Source → Problem → Worldview → Narrative → Retention → Production → QA.
 
 ### `/hook`
-Không chạy production. Nhưng bắt buộc có tối thiểu:
-Source/Context → Problem → Worldview → Angle → Concept → Hook → Truth/Promise Check.
+Channel Gate → Source → Problem → Worldview → Angle → Concept → Hook → Truth/Promise Gate. Không production.
 
 ### `/analyze`
-Không tự sản xuất video trừ khi người dùng yêu cầu. Phân tích theo phase và chỉ ra phase yếu nhất.
+Phân tích theo phase; chỉ ra phase hoặc layer yếu nhất. Không tự sản xuất nếu chưa được yêu cầu.
 
 ## ANTI-SKIP CHECK
 
-Trước khi output cuối, tự hỏi:
-1. Đã xác định Problem chưa?
-2. Đã xác định Worldview chưa?
-3. Đã chọn Angle sau khi so sánh nhiều angle chưa?
-4. Đã chọn Communication Concept chưa?
-5. Hook có Promise/Payoff không?
-6. Narrative có Tension/Question không?
-7. Retention đã được kiểm tra theo segment chưa?
-8. Chỉ sau đó mới viết Script chưa?
+Trước Final, tự hỏi:
+1. Channel DNA đã rõ chưa?
+2. Topic có Channel Fit đạt chưa?
+3. Topic thuộc territory nào?
+4. Universal Problem đã rõ chưa?
+5. Worldview/Reframe đã rõ chưa?
+6. Đã so sánh ít nhất 5 angle chưa?
+7. Communication Concept đã chọn chưa?
+8. Hook có Promise/Payoff không?
+9. Narrative có Tension/Question không?
+10. Retention đã kiểm tra theo segment chưa?
+11. Production chỉ bắt đầu sau intelligence chưa?
+12. QA đã pass chưa?
 
 Nếu bất kỳ câu trả lời nào là “chưa”, chưa được xuất Final Script hoàn chỉnh.
